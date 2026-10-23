@@ -76,7 +76,7 @@ With more time, there are three main areas in which I can improve this project:
 
 1. Productionization: 
 
-I would use Docker to containerise the code for machine to machine stability. I would deploy this to something light weight like Vercel. I would add a full login, sign in and authentication/ authorization flow -- implement JWT tokens etc. 
+I would use Docker to containerise the code for machine to machine stability. I would deploy this so that people could provide feedback. I would add a full login, sign in and authentication/ authorization flow -- implement JWT tokens etc. 
 
 2. General Product Enhancements: 
 
