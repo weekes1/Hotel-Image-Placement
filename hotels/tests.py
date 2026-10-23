@@ -5,6 +5,22 @@ from unittest import TestCase
 from unittest.mock import patch
 
 from .repository import HotelDataError, HotelNotFound, get_hotel, list_hotels
+from .selection import filter_usable_images
+
+
+class ImageSelectionTests(TestCase):
+    def test_keeps_only_usable_images_in_their_original_order(self):
+        images = [
+            {"id": "one", "usable": True},
+            {"id": "two", "usable": False},
+            {"id": "three"},
+            {"id": "four", "usable": None},
+            {"id": "five", "usable": True},
+        ]
+
+        result = filter_usable_images(images)
+
+        self.assertEqual(result, [images[0], images[4]])
 
 
 class HotelRepositoryTests(TestCase):
