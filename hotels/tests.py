@@ -6,7 +6,7 @@ from unittest.mock import patch
 
 from .repository import HotelDataError, HotelNotFound, get_hotel, list_hotels
 from .selection import filter_usable_images
-from .selection import filter_usable_images, select_curator_images
+from .selection import filter_usable_images, select_curator_images, select_member_images
 
 class ImageSelectionTests(TestCase):
     def test_keeps_only_usable_images_in_their_original_order(self):
@@ -155,4 +155,80 @@ class CuratorSelectionTests(TestCase):
         self.assertEqual(
             [image["id"] for image in result],
             ["scored", "missing"],
+        )
+
+class MemberSelectionTests(TestCase):
+    def test_selects_hero_and_galleries_without_repeating_images(self):
+        images = [
+            {
+                "id": "building",
+                "usable": True,
+                "subjects": ["exterior"],
+                "quality_score": 0.9,
+                "appeal_score": 0.9,
+            },
+            {
+                "id": "pool",
+                "usable": True,
+                "subjects": ["pool_indoor"],
+                "quality_score": 0.8,
+                "appeal_score": 0.8,
+            },
+            {
+                "id": "restaurant",
+                "usable": True,
+                "subjects": ["restaurant", "food"],
+                "quality_score": 0.9,
+                "appeal_score": 0.9,
+            },
+            {
+                "id": "shared",
+                "usable": True,
+                "subjects": ["spa", "bar"],
+                "quality_score": 0.7,
+                "appeal_score": 0.7,
+            },
+            {
+                "id": "unusable",
+                "usable": False,
+                "subjects": ["exterior"],
+                "quality_score": 1.0,
+                "appeal_score": 1.0,
+            },
+        ]
+
+        result = select_member_images(images)
+
+        self.assertEqual(result["hero"]["id"], "building")
+        self.assertIn("pool", [i["id"] for i in result["amenities"]])
+        self.assertIn("restaurant", [i["id"] for i in result["dining"]])
+
+        selected = (
+            [result["hero"]]
+            + result["amenities"]
+            + result["dining"]
+        )
+        ids = [image["id"] for image in selected]
+
+        self.assertEqual(len(ids), len(set(ids)))
+        self.assertEqual(ids.count("shared"), 1)
+        self.assertNotIn("unusable", ids)
+        self.assertEqual(result, select_member_images(list(reversed(images))))
+
+    def test_falls_back_to_a_room_when_no_property_image_exists(self):
+        room = {
+            "id": "room",
+            "usable": True,
+            "subjects": ["guest_room"],
+        }
+
+        self.assertEqual(
+            select_member_images([room]),
+            {"hero": room, "amenities": [], "dining": []},
+        )
+
+    def test_handles_no_usable_images(self):
+        self.assertEqual(
+            select_member_images([{"id": "bad", "usable": False}]),
+            {"hero": None, "amenities": [], "dining": []},
         )
