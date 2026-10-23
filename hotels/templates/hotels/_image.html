@@ -1,0 +1,14 @@
+<figure class="image-card">
+    {% if image.url %}
+    <a href="{{ image.url }}" target="_blank" rel="noopener">
+        <img src="{{ image.url }}" alt="{{ image.description|default:image.label }}" loading="lazy" decoding="async">
+        <span class="image-number">{{ forloop.counter|stringformat:'02d' }}</span>
+    </a>
+    {% else %}
+    <div class="empty">Image file unavailable</div>
+    {% endif %}
+    <figcaption>
+        <span class="image-label">{{ image.label }}</span>
+        <span class="scores">Quality {{ image.quality_score|floatformat:2|default:'—' }} · Appeal {{ image.appeal_score|floatformat:2|default:'—' }}</span>
+    </figcaption>
+</figure>

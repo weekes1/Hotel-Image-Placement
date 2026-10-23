@@ -6,9 +6,109 @@ from tempfile import TemporaryDirectory
 from unittest import TestCase
 from unittest.mock import patch
 
+from django.test import SimpleTestCase
+from django.urls import reverse
+
 from .repository import HotelDataError, HotelNotFound, get_hotel, list_hotels
 from .selection import filter_usable_images
 from .selection import filter_usable_images, select_curator_images, select_member_images
+
+
+class ShowcaseTests(SimpleTestCase):
+    def setUp(self):
+        directory = TemporaryDirectory()
+        self.addCleanup(directory.cleanup)
+        self.data_dir = Path(directory.name)
+        for target in ("hotels.repository.DATA_DIR", "hotels.views.DATA_DIR"):
+            patcher = patch(target, self.data_dir)
+            patcher.start()
+            self.addCleanup(patcher.stop)
+
+        self.hotel_id = "demo-hotel"
+        self.hotel_dir = self.data_dir / self.hotel_id
+        (self.hotel_dir / "images").mkdir(parents=True)
+        self.metadata = {
+            "id": self.hotel_id,
+            "name": "Demo & Hotel",
+            "images": [
+                {"id": "hero", "file": "images/hero.jpg", "subjects": ["exterior"], "usable": True},
+                {"id": "spa", "file": "images/spa.jpg", "subjects": ["spa"], "usable": True},
+                {"id": "food", "file": "images/food.jpg", "subjects": ["food"], "usable": True},
+            ],
+        }
+        self.metadata_path = self.hotel_dir / "hotel.json"
+        self.metadata_path.write_text(json.dumps(self.metadata), encoding="utf-8")
+        (self.hotel_dir / "images" / "hero.jpg").write_bytes(b"image fixture")
+
+    def test_member_page_shows_the_selected_hotel_hero_and_galleries(self):
+        response = self.client.get("/", {"hotel_id": self.hotel_id, "audience": "member"})
+
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.context["hero"]["id"], "hero")
+        self.assertEqual(
+            [[image["id"] for image in gallery["images"]] for gallery in response.context["galleries"]],
+            [["spa"], ["food"]],
+        )
+        self.assertContains(response, "Demo &amp; Hotel")
+        self.assertContains(response, f'/hotels/{self.hotel_id}/images/hero.jpg')
+        self.assertContains(response, "View JSON")
+
+    def test_curator_page_shows_one_ordered_gallery(self):
+        response = self.client.get("/", {"hotel_id": self.hotel_id, "audience": "curator"})
+
+        self.assertEqual(response.status_code, 200)
+        galleries = response.context["galleries"]
+        self.assertEqual(len(galleries), 1)
+        self.assertEqual(galleries[0]["images"][0]["id"], "food")
+        self.assertNotContains(response, 'class="hero"')
+
+    def test_preview_and_api_reject_invalid_requests(self):
+        api_url = reverse("image-presentation", kwargs={"hotel_id": self.hotel_id})
+        cases = [
+            ("/", {"hotel_id": self.hotel_id, "audience": "invalid"}, 400),
+            ("/", {"hotel_id": "unknown", "audience": "member"}, 404),
+            (api_url, {}, 400),
+            (api_url, {"audience": "invalid"}, 400),
+            ("/hotels/unknown/image-presentation", {"audience": "member"}, 404),
+        ]
+        for url, params, status in cases:
+            with self.subTest(url=url, params=params):
+                self.assertEqual(self.client.get(url, params).status_code, status)
+
+    def test_json_endpoints_keep_their_audience_specific_structure(self):
+        url = reverse("image-presentation", kwargs={"hotel_id": self.hotel_id})
+        for audience, fields in (
+            ("curator", {"gallery"}),
+            ("member", {"hero", "amenities", "dining"}),
+        ):
+            with self.subTest(audience=audience):
+                response = self.client.get(url, {"audience": audience})
+                self.assertEqual(response.status_code, 200)
+                self.assertEqual(set(response.json()["presentations"]), fields)
+
+    def test_only_listed_existing_image_files_are_served(self):
+        response = self.client.get(f"/hotels/{self.hotel_id}/images/hero.jpg")
+        self.addCleanup(response.close)
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response["Content-Type"], "image/jpeg")
+        self.assertEqual(b"".join(response.streaming_content), b"image fixture")
+
+        (self.hotel_dir / "images" / "unlisted.jpg").write_bytes(b"not in metadata")
+        for filename in ("unlisted.jpg", "spa.jpg", "hotel.json"):
+            with self.subTest(filename=filename):
+                response = self.client.get(f"/hotels/{self.hotel_id}/images/{filename}")
+                self.assertEqual(response.status_code, 404)
+
+    def test_empty_hotel_shows_empty_states(self):
+        self.metadata["images"] = []
+        self.metadata_path.write_text(json.dumps(self.metadata), encoding="utf-8")
+
+        response = self.client.get("/", {"hotel_id": self.hotel_id, "audience": "member"})
+
+        self.assertEqual(response.status_code, 200)
+        self.assertContains(response, "No usable hero image")
+        self.assertContains(response, "No usable amenities images")
+        self.assertContains(response, "No usable dining images")
 
 
 class VarietySelectionTests(TestCase):
