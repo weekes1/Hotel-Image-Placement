@@ -40,7 +40,10 @@ def _load_hotels():
             raise HotelDataError(f"Duplicate hotel ID: {hotel_id}")
 
         name = hotel.get("name")
-        hotel["name"] = name 
+        hotel["name"] = (
+            name if isinstance(name, str) and name.strip() else hotel_id
+        )
+        
         hotel.setdefault("images", [])
         if not isinstance(hotel["images"], list):
             raise HotelDataError(f"Expected an images list in {path}")
