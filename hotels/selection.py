@@ -13,14 +13,14 @@ HERO_SUBJECTS = {"exterior", "entrance", "grounds"}
 
 def build_presentation(images, audience):
 
-    if audience == 'member':
+    if audience == 'curator':
 
         return {
             "gallery": select_curator_images(images),
         }
 
-    if audience == "curator":
-        return select_curator_images(images)
+    if audience == "member":
+        return select_member_images(images)
 
     raise ValueError(f"Unsupported audience: {audience}")
 
