@@ -16,7 +16,7 @@ def build_presentation(images, audience):
     #     return select_member_images(images)
 
     if audience == "curator":
-        select_curator_images(images)
+        return select_curator_images(images)
 
     raise ValueError(f"Unsupported audience: {audience}")
 
