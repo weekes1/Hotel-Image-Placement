@@ -95,6 +95,16 @@ def image_subjects(image):
     }
 
 
+def image_identity(image):
+    """Use a valid ID, falling back to the file path within this hotel."""
+    for field in ("id", "file"):
+        value = image.get(field)
+        if isinstance(value, str) and value.strip():
+            return (field, value)
+
+    return None
+
+
 def _member_sort_key(image):
     source_order = image.get("sort_order")
 
@@ -104,24 +114,25 @@ def _member_sort_key(image):
     return (
         -image_strength(image),
         source_order,
-        str(image.get("id", "")),
+        image_identity(image) or ("", ""),
     )
 
 MEMBER_GALLERY_LIMIT = 5
 
 
-def _select_member_gallery(ranked_images, subjects, used_ids):
+def _select_member_gallery(ranked_images, subjects, used_keys):
     gallery = []
 
     for image in ranked_images:
-        if image["id"] in used_ids:
+        key = image_identity(image)
+        if key in used_keys:
             continue
 
         if not image_subjects(image) & subjects:
             continue
 
         gallery.append(image)
-        used_ids.add(image["id"])
+        used_keys.add(key)
 
         if len(gallery) >= MEMBER_GALLERY_LIMIT:
             break
@@ -131,7 +142,13 @@ def _select_member_gallery(ranked_images, subjects, used_ids):
 def select_member_images(images):
     usable_images = filter_usable_images(images)
 
-    ranked_images = sorted(usable_images, key=_member_sort_key)
+    candidates = [
+        image
+        for image in usable_images
+        if image_identity(image) is not None
+    ]
+
+    ranked_images = sorted(candidates, key=_member_sort_key)
 
     # Prefer explicit building/property subjects.
     hero_candidates = [
@@ -158,10 +175,10 @@ def select_member_images(images):
 
     hero = hero_candidates[0] if hero_candidates else None
 
-    used_ids = set()
+    used_keys = set()
 
     if hero is not None:
-        used_ids.add(hero["id"])
+        used_keys.add(image_identity(hero))
 
     # Fill the category with fewer available candidates first.
     categories = [
@@ -171,7 +188,7 @@ def select_member_images(images):
 
     categories.sort(
         key=lambda category: sum(
-            image["id"] not in used_ids
+            image_identity(image) not in used_keys
             and bool(image_subjects(image) & category[1])
             for image in ranked_images
         )
@@ -183,7 +200,7 @@ def select_member_images(images):
         galleries[name] = _select_member_gallery(
             ranked_images,
             subjects,
-            used_ids,
+            used_keys,
         )
 
     return {
