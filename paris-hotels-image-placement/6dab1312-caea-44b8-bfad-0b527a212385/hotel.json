@@ -1,0 +1,245 @@
+{
+  "id": "6dab1312-caea-44b8-bfad-0b527a212385",
+  "name": "Monsieur George Hotel & Spa",
+  "address": "17 Rue Washington, 75008 Paris, France",
+  "location": "Paris, France",
+  "city": "Paris",
+  "country": "FR",
+  "latitude": 48.8729381,
+  "longitude": 2.3025769,
+  "website": "https://www.monsieurgeorge.com/",
+  "description": "Monsieur George Hotel & Spa is a Paris boutique property whose interiors were designed by Anouska Hempel, set within a typical Parisian building.\nThe hotel has 45 rooms, room service, an on-site restaurant, a basement spa, and an exclusive wine cellar, with rooms variously offering balconies, hidden gardens, eaves suites, and a suspended patio.\nThe restaurant is styled in a Thousand and One Nights aesthetic, with the bar mirrored throughout and unrivalled Eiffel Tower views from the property.",
+  "image_count": 14,
+  "images": [
+    {
+      "id": "677f6282-c932-4ee0-918f-c5ace11076eb",
+      "file": "images/677f6282-c932-4ee0-918f-c5ace11076eb.jpg",
+      "sort_order": 0,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room",
+        "ambiance"
+      ],
+      "description": "This image captures a luxurious guest room, focusing on the elegantly styled bed area. A large, multi-panel distressed mirror installation serves as a prominent headboard feature, reflecting a television screen. The bed is neatly made with crisp white linens, flanked by dark bedside tables, each holding a stylish black and gold lamp and a vase of fresh tulips. The room features a sophisticated dark and neutral color palette, enhancing its refined ambiance.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "4fe2d065-39f5-4cc9-8e51-9cb312cee0ed",
+      "file": "images/4fe2d065-39f5-4cc9-8e51-9cb312cee0ed.jpg",
+      "sort_order": 1,
+      "quality_score": 0.9,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room",
+        "ambiance",
+        "room_view"
+      ],
+      "description": "This image captures a luxurious hotel guest room with a sophisticated, dark aesthetic. The room features a large bed in the foreground, with dark, heavy curtains framing a tall window on the left. A wall-mounted television is centered on the far wall, flanked by framed artwork and a stylish table lamp on a mirrored console. The decor emphasizes a moody ambiance with a color palette of dark greys, blacks, and subtle gold accents.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "ca17be73-5936-4975-a2ed-eccf8b36c45a",
+      "file": "images/ca17be73-5936-4975-a2ed-eccf8b36c45a.jpg",
+      "sort_order": 2,
+      "quality_score": 0.9,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "ambiance",
+        "guest_room",
+        "detail"
+      ],
+      "description": "The image captures a unique guest room interior, highlighting a striking exposed brick arched ceiling and wall. A modern vanity area is featured, complete with a dark countertop, a sleek black basin, a contemporary faucet, and a framed mirror. The space is accessorized with a stylish black and white striped table lamp and a decorative patterned vase. The foreground reveals the edge of a bed, indicating a luxurious and distinct accommodation setting.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "14c9be7c-476b-45bc-a545-df21417d9187",
+      "file": "images/14c9be7c-476b-45bc-a545-df21417d9187.jpg",
+      "sort_order": 3,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room",
+        "room_view"
+      ],
+      "description": "A stylish guest room is depicted, featuring a large bed with crisp white linens and a dark blue throw. A tall window with dark frames and an ornate exterior railing is visible, letting in natural light and flanked by dark, heavy curtains. The room's decor includes a large, gridded antique-style mirror on the left wall, a bedside table with a lamp, and a small vase of white tulips. A wicker chair with a dark cushion is partially visible on the right, contributing to the room's sophisticated and elegant ambiance.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "6a02284d-624e-4dec-8072-7600d64ac468",
+      "file": "images/6a02284d-624e-4dec-8072-7600d64ac468.jpg",
+      "sort_order": 4,
+      "quality_score": 1.0,
+      "appeal_score": 1.0,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room",
+        "ambiance",
+        "room_view"
+      ],
+      "description": "The image captures a luxurious guest room, centered on a large bed with a dark velvet headboard and crisp white linens. Above the bed, a gallery wall features six framed architectural prints, adding a sophisticated touch to the dark grey wall. Elegant bedside lamps with black shades and gold accents flank the bed, resting on minimalist nightstands, while a dark curtain on the right suggests a window.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "db08fb0a-c66c-4e58-aff1-771a2fd88e56",
+      "file": "images/db08fb0a-c66c-4e58-aff1-771a2fd88e56.jpg",
+      "sort_order": 5,
+      "quality_score": 1.0,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room",
+        "ambiance",
+        "room_view"
+      ],
+      "description": "This image captures a luxurious guest room with a sophisticated, dark aesthetic. A large bed with white and dark grey bedding is prominently featured, facing two tall windows adorned with heavy dark velvet curtains. To the right, a round table draped in dark velvet holds a small floral arrangement, accompanied by a matching velvet chair and a flat-screen television. The room's decor includes dark paneled walls with a subtle gold stripe, a dark floor lamp, and a framed artwork, contributing to its elegant and moody ambiance.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "40071140-16cd-48aa-a096-c1431d6e4d6e",
+      "file": "images/40071140-16cd-48aa-a096-c1431d6e4d6e.jpg",
+      "sort_order": 6,
+      "quality_score": 0.9,
+      "appeal_score": 0.85,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room",
+        "room_view"
+      ],
+      "description": "This image captures a luxurious guest room with a dark, sophisticated aesthetic. A neatly made bed with white linens and dark velvet throws and pillows dominates the foreground. The room features dark grey walls, a large wall-mounted television, and tall windows with dark drapes that offer a glimpse of greenery outside. Decorative elements include framed artwork, potted plants, and a vase of red flowers on a mirrored side table.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "1e908b57-c4a0-4d8d-96dd-b617f716c05d",
+      "file": "images/1e908b57-c4a0-4d8d-96dd-b617f716c05d.jpg",
+      "sort_order": 7,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room",
+        "ambiance",
+        "room_view"
+      ],
+      "description": "A luxurious guest room features a large bed with a dark green velvet headboard and a matching bed runner. The room is styled with dark green velvet curtains and a two-tone wall design, combining dark lower panels with lighter upper sections. A window is visible on the left, while a dark velvet accent chair and a tall floor lamp stand on the right, contributing to the room's sophisticated and moody ambiance.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "fb21c5ff-2071-48e0-82e4-00ddf012a0bd",
+      "file": "images/fb21c5ff-2071-48e0-82e4-00ddf012a0bd.jpg",
+      "sort_order": 8,
+      "quality_score": 0.95,
+      "appeal_score": 0.85,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room",
+        "room_view"
+      ],
+      "description": "This image captures a luxurious guest room featuring a large bed with white and dark grey bedding. The room is styled with a sophisticated dark aesthetic, including dark velvet curtains framing tall windows and a matching velvet-draped round table with a small floral arrangement. A television is positioned opposite the bed, and a floor lamp and framed artwork adorn the wall, which is painted in a two-tone grey with a gold stripe. The windows reveal ornate ironwork on a small balcony outside.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "e57665ca-6696-4e76-8986-055e38294467",
+      "file": "images/e57665ca-6696-4e76-8986-055e38294467.jpg",
+      "sort_order": 9,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room",
+        "ambiance",
+        "bathroom"
+      ],
+      "description": "A luxurious guest room is depicted with a large bed featuring crisp white linens and dark velvet accents. The walls are styled in a two-tone grey and dark blue with a horizontal gold stripe, adorned with framed architectural prints. A dark, modern bathroom area with a vanity and mirror is partially visible on the right. A mirrored side table with a vase of tulips and a round decorative mirror adds to the sophisticated ambiance.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "8fac6d70-0246-49c8-b56e-c21875c1ecaf",
+      "file": "images/8fac6d70-0246-49c8-b56e-c21875c1ecaf.jpg",
+      "sort_order": 10,
+      "quality_score": 0.9,
+      "appeal_score": 0.85,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room",
+        "ambiance"
+      ],
+      "description": "This image captures a luxurious guest room featuring a large bed with crisp white linens and a brown throw. Behind the bed, a striking mirrored wall with a black grid pattern serves as a prominent design element. Elegant black and gold lamps flank the bed, contributing to the room's sophisticated ambiance. A small decorative vase and some fruit are placed on a shelf integrated into the headboard structure.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "489b0540-892b-41fa-bf43-99b13ef58278",
+      "file": "images/489b0540-892b-41fa-bf43-99b13ef58278.jpg",
+      "sort_order": 11,
+      "quality_score": 0.9,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "bar",
+        "ambiance"
+      ],
+      "description": "A sophisticated bar interior features a long, reflective counter lined with tall, dark-seated bar stools. Ornate spherical chandeliers hang from the ceiling, complementing the decorative table lamps on the bar. Behind the counter, shelves are stocked with bottles, and lush green plants add a touch of nature to the elegant space. The overall lighting and decor create a luxurious and inviting atmosphere.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "be7cd053-0cf9-4762-ba51-9c331542a3a1",
+      "file": "images/be7cd053-0cf9-4762-ba51-9c331542a3a1.jpg",
+      "sort_order": 12,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "lounge",
+        "ambiance"
+      ],
+      "description": "This image captures a luxurious and richly decorated lounge area, featuring plush dark green velvet banquettes and chairs paired with small, dark marble-topped tables. The walls are elegantly designed with a two-tone scheme of dark green and beige, accented by intricate black and white trim. Ornate glass and brass chandeliers hang prominently from the ceiling, illuminating the sophisticated space. Decorative screens with a chevron pattern and a large window on the left complete the opulent setting.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "0cc154b3-f939-43d4-a17a-9119315a9305",
+      "file": "images/0cc154b3-f939-43d4-a17a-9119315a9305.jpg",
+      "sort_order": 13,
+      "quality_score": 1.0,
+      "appeal_score": 1.0,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "ambiance",
+        "lounge"
+      ],
+      "description": "The image captures a luxurious and stylish lounge area, characterized by its sophisticated ambiance. It features dark green velvet banquette seating and armchairs, complemented by small round tables and a geometrically patterned floor. A large grid-paned window provides natural light, while ornate glass chandeliers and green-shaded table lamps add to the elegant decor. Decorative elements, including stacked books and a floral arrangement, are visible in the foreground.",
+      "width": null,
+      "height": null
+    }
+  ]
+}

@@ -1,0 +1,419 @@
+{
+  "id": "2df76983-004e-4798-b134-4f25d69831be",
+  "name": "Le Wallace Hôtel & Bar",
+  "address": "89 Rue Fondary, 75015 Paris, France",
+  "location": "Paris, France",
+  "city": "Paris",
+  "country": "FR",
+  "latitude": 48.846188,
+  "longitude": 2.298489999999999,
+  "website": "https://www.hotelwallaceparis.com/fr/",
+  "description": "Le Wallace Hôtel & Bar is a four-star independent boutique hotel in Paris's 15th arrondissement, recently redesigned by interior design partnership Hauvette & Madani.\nThe hotel offers parking and room service.\nThe setting in the 15th arrondissement places guests within reach of the Seine and the Eiffel Tower neighbourhood.",
+  "image_count": 25,
+  "images": [
+    {
+      "id": "00cf5a91-21f6-4e29-b278-7806d8101550",
+      "file": "images/00cf5a91-21f6-4e29-b278-7806d8101550.jpg",
+      "sort_order": 0,
+      "quality_score": 0.9,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "lounge",
+        "ambiance"
+      ],
+      "description": "A stylish lounge area features dark teal walls contrasted with a light slatted ceiling and warm-toned tiled flooring. Various seating options include a long beige sofa, black-framed armchairs with woven seats, and small round tables with metallic and marble tops, each adorned with fresh flower arrangements. A large arched mirror reflects a decorative wall panel, while a modern gold floor lamp illuminates the space. A collection of magazines is neatly displayed in a rack, adding to the sophisticated and inviting ambiance.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "5a32071a-b85c-4468-aff6-410cef01d29d",
+      "file": "images/5a32071a-b85c-4468-aff6-410cef01d29d.jpg",
+      "sort_order": 1,
+      "quality_score": 0.9,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "ambiance",
+        "lounge"
+      ],
+      "description": "A stylish seating area features a dark teal wall adorned with a grid of sixteen framed mineral prints. In front of the wall, a small round table with a brass rim is flanked by two black chairs with woven cane seats. The floor is covered in light-colored, small-block parquet, and glimpses of a door or window are visible on the left, with a dark wooden panel on the right.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "36d1319b-2b66-4548-af6d-296a974bd2ee",
+      "file": "images/36d1319b-2b66-4548-af6d-296a974bd2ee.jpg",
+      "sort_order": 2,
+      "quality_score": 1.0,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "lobby",
+        "ambiance"
+      ],
+      "description": "The image captures a modern and stylish hotel lobby reception area. A curved reception desk, featuring vertical white and dark stripes, is topped with a dark wood surface and adorned with a large black vase holding vibrant yellow flowers. Behind the desk, a dark teal wall with perforated panels is accented by two framed landscape artworks and unique hanging light fixtures. The floor is covered in a colorful terrazzo-style tile pattern, contributing to the contemporary aesthetic of the space.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "f2776a4f-9762-4125-b33d-3064ca2f54dc",
+      "file": "images/f2776a4f-9762-4125-b33d-3064ca2f54dc.jpg",
+      "sort_order": 3,
+      "quality_score": 0.9,
+      "appeal_score": 0.8,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "terrace",
+        "exterior"
+      ],
+      "description": "The image captures a modern rooftop terrace featuring light wooden decking and contemporary black metal chairs with pink cushions. Various potted plants and a wooden trellis with greenery provide a natural touch, creating a private outdoor seating area. In the background, a dark-paneled building with window boxes stands next to traditional light-colored urban architecture under a bright blue sky with white clouds.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "67d7029e-ebca-4921-b1f1-f8943653f601",
+      "file": "images/67d7029e-ebca-4921-b1f1-f8943653f601.jpg",
+      "sort_order": 4,
+      "quality_score": 0.9,
+      "appeal_score": 0.8,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "bathroom",
+        "amenity",
+        "detail",
+        "room_view"
+      ],
+      "description": "A modern bathroom features a white terrazzo countertop with an integrated sink and sleek brushed metal fixtures, including a faucet and bath controls. Three amber-colored amenity bottles are neatly arranged on a raised section of the counter. A window with a dark frame offers a glimpse of lush greenery outside, while a small vase of fresh flowers adds a touch of color to the corner.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "d212cf37-84e2-4b91-b0c7-fa5bb1a824ba",
+      "file": "images/d212cf37-84e2-4b91-b0c7-fa5bb1a824ba.jpg",
+      "sort_order": 5,
+      "quality_score": 0.9,
+      "appeal_score": 0.8,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "spa",
+        "terrace"
+      ],
+      "description": "A serene outdoor terrace features a round wooden hot tub with a metallic rim, surrounded by a light-colored wooden deck. Two white-cushioned sun loungers, one with neatly folded white towels, invite relaxation. Various potted plants, including tall grasses and an olive tree, provide a natural backdrop and a sense of privacy.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "2da1bad8-8ec1-4788-9282-b80f02815d9a",
+      "file": "images/2da1bad8-8ec1-4788-9282-b80f02815d9a.jpg",
+      "sort_order": 6,
+      "quality_score": 0.9,
+      "appeal_score": 0.8,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "gym"
+      ],
+      "description": "This image showcases a modern, well-equipped gym featuring several Technogym machines, including treadmills, an elliptical, and a rowing machine, alongside a set of dumbbells. Large windows offer a glimpse of lush greenery outside, bringing natural light into the space. A refreshment station with neatly folded towels and bottled water is available, set against dark walls with contemporary vertical lighting fixtures.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "370a7c6e-d3c9-4c70-adf5-31b0fd698281",
+      "file": "images/370a7c6e-d3c9-4c70-adf5-31b0fd698281.jpg",
+      "sort_order": 7,
+      "quality_score": 0.9,
+      "appeal_score": 0.85,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room"
+      ],
+      "description": "This image captures a well-appointed guest room, focusing on the bedside area. A bed with crisp white linens and pillows is visible, flanked by a dark wooden headboard. Distinctive wall-mounted lamps with fringed shades and a modern white bedside table with a small floral arrangement add to the room's contemporary decor. A framed picture hangs above the bedside table, and a striped curtain is partially visible on the right.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "15967518-7de4-4be8-a1af-9a0713eaa8d7",
+      "file": "images/15967518-7de4-4be8-a1af-9a0713eaa8d7.jpg",
+      "sort_order": 8,
+      "quality_score": 0.9,
+      "appeal_score": 0.85,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room",
+        "bathroom"
+      ],
+      "description": "The image captures a stylish guest room with a view into an adjoining bathroom through an open doorway. In the foreground, a neatly made bed with white linens is visible, alongside a small round side table with a gold top and a cane-backed chair. The table holds a decorative vase and a red 'ROOM SERVICE' menu. The room features red and white striped curtains, a piece of abstract art on the wall, and a unique wall sconce. The bright bathroom reveals a white bathtub, a modern sink with toiletries, and a small window, with a vase of fresh flowers on the tub's edge.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "24ebc2c6-736b-46eb-8558-099acd786ed6",
+      "file": "images/24ebc2c6-736b-46eb-8558-099acd786ed6.jpg",
+      "sort_order": 9,
+      "quality_score": 0.9,
+      "appeal_score": 0.85,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room",
+        "room_view",
+        "ambiance"
+      ],
+      "description": "The image captures a bright and inviting guest room, focusing on a neatly made bed with crisp white linens and pillows. On the left, a window with distinctive red and white striped curtains offers a partial view of the outside, complemented by a potted plant on a small shelf. The white walls are adorned with two framed artworks and two modern, amber-toned wall sconces, enhancing the room's warm and minimalist aesthetic. A small bouquet of yellow and orange flowers adds a touch of color in the foreground on the right.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "4cd6bed8-3d76-4a2f-abfa-e5d4e83ada7d",
+      "file": "images/4cd6bed8-3d76-4a2f-abfa-e5d4e83ada7d.jpg",
+      "sort_order": 10,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "spa"
+      ],
+      "description": "This image captures the interior of a modern sauna, featuring light-colored wooden paneling on the walls, ceiling, and benches. A sauna heater with dark stones is visible in the corner, next to a tall, narrow window that offers a glimpse of the outside. Subtle strip lighting illuminates the space from beneath the lower bench, and a traditional wooden bucket and ladle rest on the floor.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "98514b3a-b0cd-449a-8774-e1520889b87c",
+      "file": "images/98514b3a-b0cd-449a-8774-e1520889b87c.jpg",
+      "sort_order": 11,
+      "quality_score": 0.9,
+      "appeal_score": 0.85,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "terrace",
+        "view",
+        "garden"
+      ],
+      "description": "The image captures a vibrant rooftop terrace featuring light wooden decking and a variety of potted plants and small trees. Several sets of modern pink chairs with black tables are arranged across the terrace, inviting guests to relax. In the background, a panoramic view of a city unfolds under a bright blue sky with scattered clouds, showcasing a mix of traditional and contemporary buildings with various rooflines. The scene is bathed in natural sunlight, highlighting the lush greenery and the urban landscape.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "242e88df-0665-4d74-a2b7-59ab199ce6e0",
+      "file": "images/242e88df-0665-4d74-a2b7-59ab199ce6e0.jpg",
+      "sort_order": 12,
+      "quality_score": 0.9,
+      "appeal_score": 0.8,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "ambiance",
+        "detail"
+      ],
+      "description": "A stylish interior corner features a modern wooden bench with two textured brown cushions, set against a clean white wall. A brass floor lamp with two adjustable heads stands to the left, next to a dark wooden archway. The floor is adorned with a vibrant terrazzo-style pattern in shades of pink, grey, and blue, while a framed black and white landscape artwork hangs above the bench.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "e816db05-1414-4294-9cfc-71c844c21913",
+      "file": "images/e816db05-1414-4294-9cfc-71c844c21913.jpg",
+      "sort_order": 13,
+      "quality_score": 0.9,
+      "appeal_score": 0.8,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room"
+      ],
+      "description": "This image captures a stylish corner of a guest room, featuring a bed with crisp white pillows. A small round gold-topped table holds a vase of fresh flowers and a red book, accompanied by a carved wooden stool. The room showcases light-colored walls with subtle paneling, a dark wood headboard, and a modern wall-mounted light fixture with fringe details. A tall, narrow mirror with a dark wood frame is visible on the left.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "186aae10-b3fc-444d-af27-253923b5dcea",
+      "file": "images/186aae10-b3fc-444d-af27-253923b5dcea.jpg",
+      "sort_order": 14,
+      "quality_score": 0.95,
+      "appeal_score": 0.85,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room",
+        "room_view",
+        "drinks"
+      ],
+      "description": "The image captures a stylish hotel guest room, partially seen through an open dark wooden doorway. In the foreground, a small seating area features a round brass-topped table with two glasses, a cane-back chair, and a rustic wooden stool. Beyond the doorway, a glimpse of the bedroom reveals a neatly made bed. The room is characterized by light wooden flooring, white paneled walls, and windows dressed with striking red and white striped curtains.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "c09189bb-046f-4526-be6d-1800f4c97b03",
+      "file": "images/c09189bb-046f-4526-be6d-1800f4c97b03.jpg",
+      "sort_order": 15,
+      "quality_score": 0.9,
+      "appeal_score": 0.85,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room",
+        "entrance",
+        "room_view"
+      ],
+      "description": "The image captures the entrance area of a modern guest room or suite, featuring a prominent dark, highly reflective door with the room number '207' visible. A bed is reflected in the door's surface, hinting at the room's interior. On either side of the door, small seating arrangements with round tables, cane-backed chairs, and wooden stools are positioned next to tall windows with patterned blinds, allowing natural light into the space. The room boasts light wooden flooring and clean white walls, creating a contemporary and inviting atmosphere.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "f4692ae8-e923-45a1-b276-d3a684e73484",
+      "file": "images/f4692ae8-e923-45a1-b276-d3a684e73484.jpg",
+      "sort_order": 16,
+      "quality_score": 0.95,
+      "appeal_score": 0.85,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room",
+        "room_view"
+      ],
+      "description": "This image captures a well-appointed guest room featuring a double bed with crisp white linens and a dark wood headboard. A sloped ceiling is prominent, suggesting an attic or mansard room. On the left, a window with orange curtains provides a glimpse of the outdoors. Bedside tables are visible, one adorned with a vase of flowers and a red book, and the other with a vintage rotary telephone.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "ade79e15-67f2-46c0-a673-bed2bacd3569",
+      "file": "images/ade79e15-67f2-46c0-a673-bed2bacd3569.jpg",
+      "sort_order": 17,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room",
+        "ambiance",
+        "room_view"
+      ],
+      "description": "This image captures a stylish guest room, featuring a neatly made bed with white linens and a dark wooden headboard. Distinctive orange and white striped curtains frame a window, allowing natural light into the room. A potted plant and a modern, stacked bedside table with unique fringed wall lamps add to the room's inviting ambiance. A vase of fresh yellow and white flowers is visible on a reflective table in the foreground.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "9b54300e-3796-44fd-a6b0-9d7a3a5955e1",
+      "file": "images/9b54300e-3796-44fd-a6b0-9d7a3a5955e1.jpg",
+      "sort_order": 18,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room",
+        "room_view"
+      ],
+      "description": "The image depicts a bright, modern guest room featuring a large bed with white linens and a dark wood headboard. A skylight and a window with striped orange and white curtains provide natural light. The room is furnished with a round gold-topped table holding a vase of flowers, a wooden stool, and a potted plant, all set on light wood flooring with an orange area rug.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "72bf49b4-35b2-41ad-97d6-5fef4ea35a2c",
+      "file": "images/72bf49b4-35b2-41ad-97d6-5fef4ea35a2c.jpg",
+      "sort_order": 19,
+      "quality_score": 0.9,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room",
+        "room_vista"
+      ],
+      "description": "This image captures a bright, modern guest room with a distinctive sloped ceiling and a large skylight window. Through the window, the iconic Eiffel Tower is prominently visible, offering an attractive view of the Parisian skyline and rooftops. The room is furnished with a comfortable dark teal armchair, a small round glass-top table, and a classic black rotary telephone on a bedside table.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "de5f385b-e07c-4afe-b82e-1020713cde33",
+      "file": "images/de5f385b-e07c-4afe-b82e-1020713cde33.jpg",
+      "sort_order": 20,
+      "quality_score": 0.9,
+      "appeal_score": 0.85,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "bathroom"
+      ],
+      "description": "A bright and modern hotel bathroom features a double vanity with integrated sinks and a selection of luxury toiletries. The countertops and bathtub surround are made of light-colored terrazzo. A vibrant orange and white striped shower curtain adds a pop of color, complementing the white tiled walls and a chrome towel warmer.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "a85ef1aa-a5dc-4982-9ed0-7af18920f9fc",
+      "file": "images/a85ef1aa-a5dc-4982-9ed0-7af18920f9fc.jpg",
+      "sort_order": 21,
+      "quality_score": 0.9,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "terrace",
+        "view"
+      ],
+      "description": "A sunlit outdoor terrace features light wooden decking and a dark metal railing. Modern black wireframe chairs and a small round table are arranged amidst several large potted green plants. In the background, traditional European rooftops with chimneys and dormer windows are visible under a partly cloudy sky, offering a charming city view.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "e2dcc7ee-1713-4058-aa12-3dafbd743611",
+      "file": "images/e2dcc7ee-1713-4058-aa12-3dafbd743611.jpg",
+      "sort_order": 22,
+      "quality_score": 0.9,
+      "appeal_score": 0.8,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room",
+        "bathroom"
+      ],
+      "description": "The image captures a stylish guest room with an open doorway leading to a modern bathroom. In the guest room, a bed with white linens is visible in the foreground, alongside a small round table with a vase and a red folder, and a cane-backed chair. Red and white striped curtains frame the left side, and abstract artwork adorns the wall. Through the doorway, the bathroom features a white bathtub, a terrazzo-patterned sink with toiletries, and a window.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "b9290dde-37d4-4153-a8f0-0deae1ab1394",
+      "file": "images/b9290dde-37d4-4153-a8f0-0deae1ab1394.jpg",
+      "sort_order": 23,
+      "quality_score": 0.9,
+      "appeal_score": 0.85,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "bar",
+        "ambiance",
+        "drinks",
+        "garden"
+      ],
+      "description": "A stylish bar area features a polished marble countertop with three bar stools, a bottle of whiskey, and bar tools. The space is illuminated by natural light streaming through large glass walls and a glass ceiling. Beyond the glass, an interior courtyard with lush green plants and additional seating is visible, enhancing the serene atmosphere. Wicker pendant lights hang from the ceiling, complementing the contemporary design.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "058f3e9b-5335-4b5d-a235-a835f6ea0f96",
+      "file": "images/058f3e9b-5335-4b5d-a235-a835f6ea0f96.jpg",
+      "sort_order": 24,
+      "quality_score": 0.9,
+      "appeal_score": 0.85,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "pool",
+        "terrace"
+      ],
+      "description": "This image captures a sunny outdoor terrace featuring a small, round, metal-rimmed plunge pool or hot tub. Adjacent to the pool is a wooden sun lounger with light-colored cushions, set on a light wooden deck. Various plants in grey rectangular planters and a wooden trellis with climbing greenery provide a natural backdrop, enhancing the serene outdoor ambiance.",
+      "width": null,
+      "height": null
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": "6416bb51-1cb0-4ef2-b0d6-04936527e953",
+  "name": "Hotel La Fantaisie",
+  "address": "24 rue Cadet, 75009, Paris, France",
+  "location": "Paris, France",
+  "city": "Paris",
+  "country": "FR",
+  "latitude": 48.87553164755765,
+  "longitude": 2.343661968926875,
+  "website": "https://www.lafantaisie.com/",
+  "description": "Hotel La Fantaisie is a five-star property in Paris's 9th arrondissement, drawing on the history of master gardeners Jean and Jacques Cadet, who under Charles IX turned the street into market gardens.\nThe hotel has a full garden, an expansive rooftop bar, room service, and an on-site restaurant.\nThe garden and rooftop bar combination is described as a unique pairing among five-star hotels in central Paris.",
+  "image_count": 6,
+  "images": [
+    {
+      "id": "ea6977da-4937-407a-9ee0-cb1deabfae4e",
+      "file": "images/ea6977da-4937-407a-9ee0-cb1deabfae4e.jpg",
+      "sort_order": 0,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "garden",
+        "exterior"
+      ],
+      "description": "A lush, verdant garden features paved pathways winding through dense greenery and mature trees. Several small, round tables with light green chairs are scattered throughout the garden, offering inviting outdoor seating. In the background, a modern building with large windows and a glass conservatory structure is visible, suggesting a hotel exterior or a connected dining area.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "ff9c75be-037c-437d-b16c-12771277a547",
+      "file": "images/ff9c75be-037c-437d-b16c-12771277a547.jpg",
+      "sort_order": 1,
+      "quality_score": 1.0,
+      "appeal_score": 1.0,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "spa",
+        "ambiance"
+      ],
+      "description": "A luxurious and serene interior space, likely a spa relaxation area, is bathed in warm, soft yellow light from cove lighting and ornate gold sconces and ceiling fixtures. Pale cream walls feature recessed alcoves adorned with intricate green botanical mosaic art. Comfortable light green upholstered seating with coral accent cushions is arranged along a raised platform with chrome railings, complementing the light-toned tiled floor.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "0c3794e7-bbf9-46ff-be84-928f06c31483",
+      "file": "images/0c3794e7-bbf9-46ff-be84-928f06c31483.jpg",
+      "sort_order": 2,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "terrace",
+        "bar",
+        "garden"
+      ],
+      "description": "This image captures a vibrant outdoor terrace featuring numerous yellow upholstered chairs and small round tables arranged on a wooden deck. A large green and white patterned umbrella provides shade over a section of the seating area. Through the glass facade of the building, an interior bar with a golden counter and bottles is visible. Lush green plants and foliage are strategically placed around the terrace, enhancing the inviting atmosphere.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "e6ba4aa7-d728-43e9-ace9-77687ced3d8e",
+      "file": "images/e6ba4aa7-d728-43e9-ace9-77687ced3d8e.jpg",
+      "sort_order": 3,
+      "quality_score": 1.0,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room",
+        "ambiance"
+      ],
+      "description": "This image captures a close-up of a luxurious guest room, focusing on the bed and its surroundings. A patterned headboard with a scalloped edge and a brass reading light is visible behind crisp white bedding. To the right, a wooden bedside table holds a distinctive ceramic lamp with lily pad and frog motifs, alongside a stack of books and a notebook. Part of a wardrobe with an intricate blue and white patterned facade is also visible on the far right.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "4c19a721-5eaa-450a-883f-e4192d127d4c",
+      "file": "images/4c19a721-5eaa-450a-883f-e4192d127d4c.jpg",
+      "sort_order": 4,
+      "quality_score": 0.9,
+      "appeal_score": 0.8,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room"
+      ],
+      "description": "This image captures a stylish guest room, featuring a bed with crisp white linens and a distinctive wicker headboard. A nightstand beside the bed holds a decorative lamp and a glass of water. An open wooden wardrobe with striking blue patterned doors reveals clothes hanging inside, while an adjacent entryway features an ornate mirror and a small shelf, all within a warm-toned interior.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "3ceed200-859d-4237-ad55-09ddcd442225",
+      "file": "images/3ceed200-859d-4237-ad55-09ddcd442225.jpg",
+      "sort_order": 5,
+      "quality_score": 1.0,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "ambiance",
+        "guest_room",
+        "room_view",
+        "drinks"
+      ],
+      "description": "This image showcases a bright and inviting guest room, featuring a large window that offers a lush green view of trees. The room is tastefully decorated with patterned wallpaper, a distinctive wicker headboard, and a comfortable orange armchair. A small side table by the window holds a teapot and cups, suggesting a relaxing tea service.",
+      "width": null,
+      "height": null
+    }
+  ]
+}

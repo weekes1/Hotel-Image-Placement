@@ -1,0 +1,319 @@
+{
+  "id": "4ecc841f-73a2-4c38-adc3-3993194055ba",
+  "name": "Hotel San Regis",
+  "address": "12 Rue Jean Goujon, 75008 Paris, France",
+  "location": "Paris, France",
+  "city": "Paris",
+  "country": "FR",
+  "latitude": 48.8664777,
+  "longitude": 2.308502,
+  "website": "https://www.hotel-san-regis.com/",
+  "description": "Hotel San Regis is a Small Luxury Hotels of the World property in Paris, designed in the style of a deluxe guesthouse with terraces overlooking the city's rooftops.\nThe hotel has room service and a restaurant.",
+  "image_count": 18,
+  "images": [
+    {
+      "id": "9d9e3972-0934-41c6-9c15-784c0edb50d5",
+      "file": "images/9d9e3972-0934-41c6-9c15-784c0edb50d5.jpg",
+      "sort_order": 0,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "ambiance",
+        "guest_room",
+        "food",
+        "drinks",
+        "room_view"
+      ],
+      "description": "The image captures a luxuriously appointed living area, likely within a guest room or suite, showcasing classic decor. A plush red armchair with ornate wooden details is positioned next to a white marble fireplace, above which hangs a large, gilded mirror. A round coffee table in the foreground holds a silver tray laden with a breakfast spread, including a teapot, cups, and pastries. Heavy drapes with decorative red trim frame a bright window, while a beige sofa with red cushions is partially visible on the right.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "b09eb30e-dee9-42d6-9d31-0ff4dd81d699",
+      "file": "images/b09eb30e-dee9-42d6-9d31-0ff4dd81d699.jpg",
+      "sort_order": 1,
+      "quality_score": 0.95,
+      "appeal_score": 0.98,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "view",
+        "terrace",
+        "food",
+        "drinks"
+      ],
+      "description": "A bright, sunny photograph captures a private outdoor terrace overlooking the rooftops of Paris. A white wrought-iron table is elegantly set for breakfast with croissants, fresh fruit, coffee, and juice. In the background, the iconic Eiffel Tower stands prominently against a blue sky with scattered clouds, offering a quintessential Parisian vista.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "90b572c7-98c9-4b77-9f64-cb2ef9c393f8",
+      "file": "images/90b572c7-98c9-4b77-9f64-cb2ef9c393f8.jpg",
+      "sort_order": 2,
+      "quality_score": 1.0,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room",
+        "ambiance",
+        "room_view",
+        "food"
+      ],
+      "description": "This image showcases a luxurious hotel guest room, featuring a large bed with a patterned gold bedspread and a dark headboard. The wall behind the bed is adorned with rich red and gold patterned wallpaper, complemented by elegant bedside tables with lamps. A window with heavy drapes and sheer curtains is visible on the right, allowing natural light into the classically decorated space. In the foreground, a small desk holds a plate of colorful macarons, adding a touch of indulgence to the sophisticated ambiance.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "d3f3a98a-8dcb-4b6b-ad90-0b50a8e882bb",
+      "file": "images/d3f3a98a-8dcb-4b6b-ad90-0b50a8e882bb.jpg",
+      "sort_order": 3,
+      "quality_score": 1.0,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "suite"
+      ],
+      "description": "This image showcases a luxurious hotel suite, featuring a spacious bedroom area connected to a separate sitting room. The bedroom has a large bed with crisp white linens and a beige upholstered headboard, set against a striking black and white floral and monkey-patterned wallpaper. Through an archway, the sitting area is visible with a dark sofa, white throw pillows, a round coffee table, and a wall adorned with decorative mirrors. The suite is elegantly furnished with classic dark wood pieces and a distinctive black and gold patterned carpet in the lounge space.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "e5f16aee-6f03-4721-934d-adfdbd404e19",
+      "file": "images/e5f16aee-6f03-4721-934d-adfdbd404e19.jpg",
+      "sort_order": 4,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "suite",
+        "terrace",
+        "room_vista"
+      ],
+      "description": "This image captures a luxurious hotel suite, featuring a spacious bedroom with a large white bed in the foreground. Beyond, a comfortable living area with a dark sofa and coffee table is visible, adorned with elegant decor. Large glass doors open onto a private terrace furnished with outdoor chairs, offering an expansive view of a city skyline under a bright sky.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "bd544cdc-1e4a-4e23-861f-2147f61fbb2f",
+      "file": "images/bd544cdc-1e4a-4e23-861f-2147f61fbb2f.jpg",
+      "sort_order": 5,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "terrace",
+        "food",
+        "drinks",
+        "view",
+        "exterior"
+      ],
+      "description": "A beautifully set breakfast table on an outdoor terrace features white metal furniture with orange cushions, surrounded by lush green foliage. The table is laden with croissants, fresh fruit, jams, coffee, and juice. In the background, a distinctive domed building with a French flag on its spire is visible under a clear blue sky, offering an attractive city view.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "f0a70439-4a19-469e-ba1d-947e9f473e0c",
+      "file": "images/f0a70439-4a19-469e-ba1d-947e9f473e0c.jpg",
+      "sort_order": 6,
+      "quality_score": 1.0,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room",
+        "ambiance",
+        "room_view"
+      ],
+      "description": "This image captures a luxurious guest room, featuring a large bed with a plaid headboard and blue floral pillows, set against a feature wall of matching blue floral wallpaper. Flanking the bed are two dark wood bedside tables, each with an ornate lamp and one with a small white floral arrangement. The room is elegantly appointed with white wainscoting, a blue patterned carpet, and a classic brass chandelier, with a window visible on the right.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "1d50f0c6-7413-4dbe-a427-6ba530dcf020",
+      "file": "images/1d50f0c6-7413-4dbe-a427-6ba530dcf020.jpg",
+      "sort_order": 7,
+      "quality_score": 1.0,
+      "appeal_score": 0.95,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "suite",
+        "room_view"
+      ],
+      "description": "The image captures a luxurious hotel suite, viewed from an open doorway that frames the scene. A king-sized bed with a decorative wooden headboard and patterned wallpaper is the focal point, flanked by elegant bedside tables and lamps. To the left, a polished wooden dresser with a green plant and an upholstered armchair adds to the sophisticated decor, all set on a blue patterned carpet. Through an open archway in the background, a bright adjoining space with a window is visible.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "1218ac57-afba-479e-926a-a7acd06348d3",
+      "file": "images/1218ac57-afba-479e-926a-a7acd06348d3.jpg",
+      "sort_order": 8,
+      "quality_score": 1.0,
+      "appeal_score": 1.0,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "suite",
+        "food",
+        "drinks"
+      ],
+      "description": "A luxurious hotel suite features a king-sized bed with a striped headboard and a large map mural behind it. A separate seating area includes a grey sofa with red cushions and a red armchair, centered around a marble-topped coffee table. The table is set with a white teapot, cups, and a plate of colorful macarons, suggesting in-room dining service. The room is elegantly decorated with classic paneling, mirrored accents, and a patterned carpet.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "b96bd4f4-3f43-413f-bc99-ec2f28669e92",
+      "file": "images/b96bd4f4-3f43-413f-bc99-ec2f28669e92.jpg",
+      "sort_order": 9,
+      "quality_score": 0.9,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "lounge",
+        "lobby",
+        "ambiance"
+      ],
+      "description": "A luxurious hotel lounge features rich wood paneling and a patterned carpet, creating a warm and inviting atmosphere. Multiple seating arrangements with plush armchairs and sofas are illuminated by numerous elegant lamps. In the background, a grand wooden staircase with an ornate black metal railing ascends to an upper level. Large windows on the left side provide natural light and a glimpse of the exterior greenery.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "3ba0bbbc-e369-4b68-8077-3df6d18b9bc2",
+      "file": "images/3ba0bbbc-e369-4b68-8077-3df6d18b9bc2.jpg",
+      "sort_order": 10,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "suite",
+        "ambiance",
+        "room_view"
+      ],
+      "description": "This image showcases a luxurious hotel suite, featuring a large bed with crisp white linens, a patterned throw, and decorative pillows. Elegant patterned curtains and sheer drapes frame a window on the left, allowing natural light into the room. The sophisticated decor includes classic wall paneling, a mirrored wall above the headboard, and stylish bedside lamps. A dark wood bedside table with a small floral arrangement, bottled water, and macarons adds a welcoming touch.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "30830553-ee91-46d8-ac84-b1d4aae746d1",
+      "file": "images/30830553-ee91-46d8-ac84-b1d4aae746d1.jpg",
+      "sort_order": 11,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room",
+        "room_view"
+      ],
+      "description": "This image displays a luxurious guest room featuring a large bed with white linens and a patterned throw. The room is adorned with classic toile-style wallpaper behind the headboard and elegant wall moldings. A window with sheer and patterned drapes offers a glimpse of a balcony railing outside, while a small desk with a television and a decorative chair are visible on the left. The room is carpeted in a teal color with a gold rope pattern.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "8c8a13d4-e64a-4813-8b18-da99243abf52",
+      "file": "images/8c8a13d4-e64a-4813-8b18-da99243abf52.jpg",
+      "sort_order": 12,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room",
+        "ambiance",
+        "room_view"
+      ],
+      "description": "This image showcases a luxurious hotel guest room, featuring a large bed dressed in white linens and a floral patterned throw and pillows. A prominent wall is covered in elegant floral wallpaper, complemented by a dark wood headboard and sophisticated wall sconces. To the left, a window with layered drapes, a small round table with an orchid, and a desk area with a chair and television complete the refined ambiance of the room.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "4f08fcc5-b286-4c56-9f56-55bb20d9e9e9",
+      "file": "images/4f08fcc5-b286-4c56-9f56-55bb20d9e9e9.jpg",
+      "sort_order": 13,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room",
+        "room_view",
+        "bathroom"
+      ],
+      "description": "This image showcases a luxurious hotel guest room, featuring a large bed with a patterned headboard and striking botanical wallpaper. A comfortable sofa and a wooden desk are situated near a tall window, which offers a view of urban rooftops and buildings. Through an open doorway, a bright, white-tiled bathroom is partially visible.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "59c2b8ce-13ad-42ef-897c-47d816c874d0",
+      "file": "images/59c2b8ce-13ad-42ef-897c-47d816c874d0.jpg",
+      "sort_order": 14,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "restaurant",
+        "ambiance"
+      ],
+      "description": "This image captures an elegant dining area within a luxury hotel, featuring a plush banquette upholstered in light fabric and adorned with an array of decorative pillows. Several small, dark dining tables with gold accents are set with white placemats, cutlery, and pink glasses. The wall behind the banquette is decorated with light green toile wallpaper and a large, ornate gold-framed painting of a child with a lamb, flanked by classical white and gold vases.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "aa104eee-eaae-455a-bb05-67222ec7d5a9",
+      "file": "images/aa104eee-eaae-455a-bb05-67222ec7d5a9.jpg",
+      "sort_order": 15,
+      "quality_score": 1.0,
+      "appeal_score": 1.0,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "ambiance",
+        "lounge"
+      ],
+      "description": "This image captures a luxurious lounge area, characterized by its elegant and ornate decor. A grand, multi-tiered gold chandelier hangs centrally from a domed ceiling, illuminating the space. The walls feature delicate hand-painted murals depicting birds and botanical motifs on a light green background, framed by classic white architectural molding and fluted columns. Plush, tufted banquette seating in a neutral tone is arranged around small, round tables with dark, reflective surfaces, creating an intimate and sophisticated atmosphere.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "ce7c2357-0c02-47e0-8134-e2066e4c12b7",
+      "file": "images/ce7c2357-0c02-47e0-8134-e2066e4c12b7.jpg",
+      "sort_order": 16,
+      "quality_score": 1.0,
+      "appeal_score": 1.0,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "restaurant",
+        "ambiance"
+      ],
+      "description": "This image captures an elegant, naturally lit restaurant space, featuring a prominent glass skylight and tall windows that offer views of lush greenery outside. The room is meticulously arranged with multiple dining tables, upholstered chairs, and a long banquette adorned with decorative pillows. Classical artwork in a gold frame and ornate vases enhance the sophisticated decor, contributing to a bright and inviting atmosphere.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "0273cc42-6418-459d-b44d-3e1b1b8dd675",
+      "file": "images/0273cc42-6418-459d-b44d-3e1b1b8dd675.jpg",
+      "sort_order": 17,
+      "quality_score": 1.0,
+      "appeal_score": 1.0,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "lobby",
+        "ambiance"
+      ],
+      "description": "A grand, ornate staircase with a patterned carpet runner and marble steps is the central feature of this luxurious lobby. Elaborate black and gold wrought-iron railings line the staircase, which is flanked by two decorative statues: one holding a golden globe and another an armillary sphere. A large, multi-tiered chandelier hangs from the high ceiling, illuminating the space and a detailed mosaic floor at the base of the stairs.",
+      "width": null,
+      "height": null
+    }
+  ]
+}

@@ -1,0 +1,427 @@
+{
+  "id": "70204281-e933-4454-9b1f-1106437b6d66",
+  "name": "Majestic Hôtel-Spa Champs-Elysées",
+  "address": "30 Rue la Pérouse, 75116 Paris, France",
+  "location": "Paris, France",
+  "city": "Paris",
+  "country": "FR",
+  "latitude": 48.8703699,
+  "longitude": 2.2938674,
+  "website": "https://www.majestic-hotel.com/en/page/home.3.html",
+  "description": "Majestic Hotel-Spa is a Preferred Hotels property in Paris's 16th arrondissement, on a quiet traffic-free street near the Champs-Elysees and the Arc de Triomphe.\nThe hotel has a pool, gym, parking, room service, and on-site dining, plus a spa with two hammams.\nMany suites include kitchenettes and over half have terraces, suited to longer stays.",
+  "image_count": 25,
+  "images": [
+    {
+      "id": "5e4934f5-df9e-4f15-a098-6cb720428b45",
+      "file": "images/5e4934f5-df9e-4f15-a098-6cb720428b45.jpg",
+      "sort_order": 0,
+      "quality_score": 0.8,
+      "appeal_score": 0.85,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "restaurant"
+      ],
+      "description": "This image captures a brightly lit restaurant dining area, featuring multiple square tables meticulously set with white plates, rolled napkins, and various colored glassware. The room is furnished with a mix of colorful chairs in orange, red, and light blue, alongside cream-colored banquette seating. A large abstract painting adorns one wall, and tall windows with drapes allow natural light into the space, complemented by floor lamps with red shades.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "9c7fb6ba-9a56-4ee1-a614-6763cc1062f7",
+      "file": "images/9c7fb6ba-9a56-4ee1-a614-6763cc1062f7.jpg",
+      "sort_order": 1,
+      "quality_score": 0.95,
+      "appeal_score": 0.85,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "lobby",
+        "ambiance"
+      ],
+      "description": "A long, opulent hotel corridor is illuminated by multiple crystal chandeliers with red accents. White ornate wall paneling, large mirrors, and arched doorways line the hallway, which features a patterned red and beige runner rug over a marble floor. Decorative console tables with clear glass lamps flank the sides, contributing to the luxurious and classic ambiance.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "afc49863-2821-4d4c-9d15-e80315905af9",
+      "file": "images/afc49863-2821-4d4c-9d15-e80315905af9.jpg",
+      "sort_order": 2,
+      "quality_score": 0.9,
+      "appeal_score": 0.85,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "suite",
+        "room_vista",
+        "terrace",
+        "drinks"
+      ],
+      "description": "This image captures a luxurious hotel suite, featuring classic French-inspired decor with rich red and gold upholstered furniture and a striped rug. A sliding glass door opens to a private terrace, offering a distant view of the Eiffel Tower. On a dark wood coffee table, a silver ice bucket with champagne and two flutes is prepared, adding to the aspirational ambiance of the room.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "6513d4f6-1b4b-4ced-b438-40f2a1f2b345",
+      "file": "images/6513d4f6-1b4b-4ced-b438-40f2a1f2b345.jpg",
+      "sort_order": 3,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "suite",
+        "drinks",
+        "food"
+      ],
+      "description": "This image showcases the elegant living area of a luxury suite, featuring classic white wall paneling and herringbone wood floors. The space includes a comfortable seating arrangement with a coffee table holding a bottle of champagne in an ice bucket and a bowl of fruit, a small dining table with two chairs, and a dedicated desk area with a laptop. An open doorway reveals a glimpse into the adjacent bedroom, highlighting the suite's spacious layout and sophisticated decor.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "6762f2b3-21a1-4405-a069-177c460dd781",
+      "file": "images/6762f2b3-21a1-4405-a069-177c460dd781.jpg",
+      "sort_order": 4,
+      "quality_score": 0.9,
+      "appeal_score": 0.6,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "restaurant",
+        "food",
+        "drinks"
+      ],
+      "description": "The image depicts a well-lit hotel dining area, likely a breakfast room, featuring an extensive buffet spread. In the foreground, a table is neatly set with place settings, glasses of juice, and small jars of preserves. The background showcases a long buffet counter laden with hot food chafing dishes, pastries, cereals, and fresh fruit, all presented on light wood cabinetry. Large windows along one wall provide natural light and a view of an urban exterior.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "c92605ed-293e-44a1-9208-49e4c5befb70",
+      "file": "images/c92605ed-293e-44a1-9208-49e4c5befb70.jpg",
+      "sort_order": 5,
+      "quality_score": 0.9,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "ambiance",
+        "lobby"
+      ],
+      "description": "The image captures a long, opulent hotel hallway or lobby area, characterized by classical white architectural details and ornate moldings. Multiple crystal chandeliers with distinctive red accents illuminate the space, complemented by elegant table lamps on console tables. A patterned runner rug extends down the polished marble floor, leading the eye towards an archway at the far end. The decor exudes a luxurious and sophisticated atmosphere.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "059e6590-99e7-4889-a894-bb1f7faf2a3a",
+      "file": "images/059e6590-99e7-4889-a894-bb1f7faf2a3a.jpg",
+      "sort_order": 6,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "lobby",
+        "people",
+        "entrance",
+        "lounge"
+      ],
+      "description": "A grand hotel lobby features a curved, light-colored reception desk with two staff members attending. To the left, a classic lounge area with a gold sofa and red cushions, along with several armchairs, is visible. On the right, a large revolving door serves as the main entrance, with a person walking on the street outside. The space is adorned with ornate cream-colored walls, a patterned marble floor, and elegant decor.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "9e9f9b9f-2c1a-4868-b5e7-0a0b589df9b5",
+      "file": "images/9e9f9b9f-2c1a-4868-b5e7-0a0b589df9b5.jpg",
+      "sort_order": 7,
+      "quality_score": 0.95,
+      "appeal_score": 0.85,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "lounge",
+        "bar",
+        "ambiance"
+      ],
+      "description": "A luxurious hotel lounge features comfortable seating with striped and solid upholstered sofas and armchairs, accented with orange cushions. A modern fireplace with a warm glow is visible on the left, beneath contemporary artwork. To the right, a well-stocked bar with a glowing green counter and high-backed stools creates an inviting atmosphere. The space is illuminated by warm sconces and pendant lights, enhancing the sophisticated ambiance.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "a25dc463-3f51-46b2-aa01-cae815e00300",
+      "file": "images/a25dc463-3f51-46b2-aa01-cae815e00300.jpg",
+      "sort_order": 8,
+      "quality_score": 1.0,
+      "appeal_score": 1.0,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "pool_indoor",
+        "ambiance"
+      ],
+      "description": "This image captures a luxurious indoor swimming pool area, featuring clear blue water and elegant surrounding decor. The space is illuminated by warm, ambient lighting, highlighting a textured feature wall at one end of the pool. Several comfortable lounge chairs and seating arrangements are positioned along the poolside, creating a serene and inviting atmosphere.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "ca755183-21b9-47a4-9adc-cc871112864a",
+      "file": "images/ca755183-21b9-47a4-9adc-cc871112864a.jpg",
+      "sort_order": 9,
+      "quality_score": 0.95,
+      "appeal_score": 0.85,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "gym"
+      ],
+      "description": "The image displays a modern and well-equipped hotel gym. It features various Technogym cardio machines, including treadmills and an elliptical, alongside a dumbbell rack and an adjustable weight bench. The space boasts light herringbone wood flooring, recessed ceiling lighting, and a distinctive window wall with dark circular patterns and subtle red backlighting, creating an inviting atmosphere for workouts.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "edd9d41f-dfd2-47cf-9f4c-c8391c7634ed",
+      "file": "images/edd9d41f-dfd2-47cf-9f4c-c8391c7634ed.jpg",
+      "sort_order": 10,
+      "quality_score": 0.9,
+      "appeal_score": 0.8,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "spa",
+        "ambiance"
+      ],
+      "description": "This image captures the interior of a luxurious steam room or hammam, adorned with vibrant blue mosaic tiles in various shades. A built-in bench, also tiled, is visible in the foreground, while another section of the room in the background features a neatly folded white and striped towel. Soft, warm light emanates from a small candle holder, enhancing the serene and inviting atmosphere of the spa facility.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "6d10e979-a828-4f32-a4a5-2af925290fa9",
+      "file": "images/6d10e979-a828-4f32-a4a5-2af925290fa9.jpg",
+      "sort_order": 11,
+      "quality_score": 1.0,
+      "appeal_score": 1.0,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "suite",
+        "bathroom"
+      ],
+      "description": "This image showcases a luxurious hotel suite featuring a large bed with plush bedding and a patterned bed skirt, set on a light parquet floor. The room is elegantly decorated with ornate white wall paneling, a modern chandelier, and contemporary abstract art. An open doorway on the right provides a clear view into a sophisticated bathroom with dual sinks and illuminated mirrors. Mirrored doors on the left, framed by striped curtains, reflect more of the room's refined interior.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "65ce80b2-2874-4892-9260-8a6b435fa085",
+      "file": "images/65ce80b2-2874-4892-9260-8a6b435fa085.jpg",
+      "sort_order": 12,
+      "quality_score": 0.9,
+      "appeal_score": 0.75,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "bathroom"
+      ],
+      "description": "This image showcases a spacious and well-appointed hotel bathroom. It features a classic white clawfoot bathtub filled with water, complete with a bath caddy holding toiletries. Adjacent to the tub is a modern walk-in shower with a frosted glass door and a grab bar. The room is tiled with a combination of light beige and teal square tiles, accented by a mosaic border, and includes a chrome heated towel rail with fresh white towels and a bathrobe hanging on a hook.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "db3b598a-731e-4ded-af49-4a7de22836aa",
+      "file": "images/db3b598a-731e-4ded-af49-4a7de22836aa.jpg",
+      "sort_order": 13,
+      "quality_score": 0.9,
+      "appeal_score": 0.8,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "suite",
+        "food",
+        "drinks",
+        "amenity"
+      ],
+      "description": "This image captures a luxurious hotel suite, featuring a living area with a patterned sofa and a glass dining table set with coffee, water, and an assortment of pastries. A dedicated workspace with a laptop and wall-mounted television is visible, alongside a classic marble fireplace. Through an open door, a compact, modern kitchenette can be seen, adding to the suite's amenities. The room is adorned with elegant white paneling, a decorative chandelier, and a vibrant piece of modern art.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "67c98e46-940a-4743-b31b-1d9bee8dc5d1",
+      "file": "images/67c98e46-940a-4743-b31b-1d9bee8dc5d1.jpg",
+      "sort_order": 14,
+      "quality_score": 0.9,
+      "appeal_score": 0.6,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "restaurant"
+      ],
+      "description": "The image depicts an elegantly set restaurant dining room, featuring multiple tables draped in white tablecloths and prepared with glassware and dark napkins. The room is furnished with numerous armchairs upholstered in a dark, polka-dotted fabric, arranged around the tables. White paneled walls display several pieces of colorful abstract art, with two large floor lamps with red shades flanking a prominent artwork at the far end. Dark, heavy curtains frame a window on the right side, and the floor is a mix of light and dark marble.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "5ddb9b18-4e52-408f-96c8-3a375866f60e",
+      "file": "images/5ddb9b18-4e52-408f-96c8-3a375866f60e.jpg",
+      "sort_order": 15,
+      "quality_score": 0.9,
+      "appeal_score": 0.8,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "suite",
+        "amenity",
+        "room_view"
+      ],
+      "description": "A modern kitchen area is depicted, featuring light wood cabinetry and speckled granite countertops. A stainless steel microwave is built into the upper cabinets, while the counter includes a sink, an induction stovetop, and a coffee machine. A bottle of wine, two glasses, and a basket of pastries are neatly arranged on the counter, suggesting a welcoming setup. A window with red and white striped blinds is visible on the right, and a framed artwork hangs on the adjacent wall.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "308bfbbc-fc80-4e4e-8c0d-2fa4429953a6",
+      "file": "images/308bfbbc-fc80-4e4e-8c0d-2fa4429953a6.jpg",
+      "sort_order": 16,
+      "quality_score": 1.0,
+      "appeal_score": 1.0,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "pool_indoor",
+        "spa"
+      ],
+      "description": "This image captures a luxurious indoor swimming pool area, featuring a large blue mosaic-tiled pool illuminated by underwater lights. Alongside the pool, several elegant lounge chairs are arranged with neatly rolled white towels, lit by stylish table lamps. A textured golden wall with a subtle water feature effect and a handrail are visible on the far side of the pool, contributing to a serene and upscale ambiance.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "ece910e4-3f9c-40ac-92a3-57b732490240",
+      "file": "images/ece910e4-3f9c-40ac-92a3-57b732490240.jpg",
+      "sort_order": 17,
+      "quality_score": 0.9,
+      "appeal_score": 0.8,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "suite",
+        "guest_room",
+        "food",
+        "drinks",
+        "room_view"
+      ],
+      "description": "This image showcases a luxurious hotel suite, featuring a distinct sleeping area with a large bed dressed in red and white linens visible through an archway. In the foreground, a small dining area is set with a glass-top table and two ornate red chairs, laden with a breakfast spread including fruit, pastries, and juice. Adjacent to the dining area is a compact kitchenette equipped with a microwave and coffee maker, all within a space adorned with classic decor and herringbone parquet flooring. A window with striped red and white curtains provides natural light to the room.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "6cc5cb69-0131-432b-b7a3-1b11f385f5be",
+      "file": "images/6cc5cb69-0131-432b-b7a3-1b11f385f5be.jpg",
+      "sort_order": 18,
+      "quality_score": 0.9,
+      "appeal_score": 0.85,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "terrace",
+        "view",
+        "exterior"
+      ],
+      "description": "A spacious outdoor terrace features two wicker armchairs with yellow and green striped cushions, set on a patterned stone floor. Lush green hedges line one side of the terrace, which is enclosed by black metal railings. Beyond the terrace, a panoramic city view unfolds, showcasing numerous buildings and the iconic Eiffel Tower visible in the distance under a partly cloudy blue sky.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "2700ffd7-aa69-4de6-bdb0-096e9fd22650",
+      "file": "images/2700ffd7-aa69-4de6-bdb0-096e9fd22650.jpg",
+      "sort_order": 19,
+      "quality_score": 1.0,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room",
+        "bathroom",
+        "ambiance"
+      ],
+      "description": "A luxurious guest room features a large bed with a brown throw and several decorative pillows. The room is elegantly appointed with white wall paneling, a striped accent wall behind the bed, and a modern abstract painting. A large chandelier and two ornate table lamps provide warm lighting. An open doorway on the left reveals a glimpse of a bathroom with a freestanding clawfoot bathtub.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "124a9279-4c91-4942-be7f-638f9f2fe112",
+      "file": "images/124a9279-4c91-4942-be7f-638f9f2fe112.jpg",
+      "sort_order": 20,
+      "quality_score": 0.95,
+      "appeal_score": 0.95,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "food",
+        "detail"
+      ],
+      "description": "A close-up shot showcases a vibrant, artfully plated dish served in a dark, textured ceramic bowl. The dish features grilled zucchini, fresh mozzarella, a variety of colorful heirloom tomatoes, and is garnished with microgreens and delicate edible purple and white flowers. The ingredients are arranged to highlight their freshness and visual appeal, set against a warm wooden surface.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "1ee7fd1c-9ffb-447c-8f0f-c493ef12668f",
+      "file": "images/1ee7fd1c-9ffb-447c-8f0f-c493ef12668f.jpg",
+      "sort_order": 21,
+      "quality_score": 1.0,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "food"
+      ],
+      "description": "The image captures a vibrant and fresh breakfast or buffet spread, showcasing a variety of healthy options. Bowls of sliced grapefruit, oranges, and mixed fruit salad are prominently displayed, alongside fresh whole fruits like apples, grapes, and passion fruit in a wooden tray. Creamy yogurts are presented in small black dishes, and two pitchers of juice are kept cool in a polished silver container, all arranged on clean wooden surfaces.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "8bef05fa-e846-4974-ba2b-b070eb61ba9d",
+      "file": "images/8bef05fa-e846-4974-ba2b-b070eb61ba9d.jpg",
+      "sort_order": 22,
+      "quality_score": 0.9,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "terrace",
+        "view",
+        "drinks"
+      ],
+      "description": "A bright, inviting hotel balcony features wicker outdoor furniture with vibrant green and yellow striped cushions. A tray with two colorful cocktails rests on a green ottoman. In the background, the iconic Eiffel Tower is visible above the classic Parisian rooftops and dormer windows, offering a quintessential city view. A dark green lattice panel provides a decorative element on the adjacent wall.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "888e0c0a-babf-404f-a9f5-bdc3672e4169",
+      "file": "images/888e0c0a-babf-404f-a9f5-bdc3672e4169.jpg",
+      "sort_order": 23,
+      "quality_score": 0.95,
+      "appeal_score": 0.85,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "restaurant",
+        "food"
+      ],
+      "description": "The image captures a bright and well-stocked breakfast buffet area within a hotel restaurant. A long wooden counter presents an array of fresh food, including croissants, baguettes, cereals, jams, and various fruits and cold dishes. The space is illuminated by large windows on the left, complemented by a dark accent wall adorned with a colorful art piece, creating a modern and inviting atmosphere.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "5c7760a3-c1b9-46b4-b1b3-eb1d0e4fdb51",
+      "file": "images/5c7760a3-c1b9-46b4-b1b3-eb1d0e4fdb51.jpg",
+      "sort_order": 24,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "treatment_room",
+        "spa",
+        "ambiance"
+      ],
+      "description": "The image captures a luxurious steam room or hammam, entirely adorned with intricate blue, white, and grey mosaic tiles covering the walls, floor, and arched ceiling. A tiled bench, featuring a neatly folded striped towel and small decorative items, is visible on the left. Soft, recessed lighting illuminates the space, which includes a doorway leading to an adjacent, similarly tiled area.",
+      "width": null,
+      "height": null
+    }
+  ]
+}

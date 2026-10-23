@@ -1,0 +1,434 @@
+{
+  "id": "f1784b8d-e0a2-4040-baae-ea1bb3608f43",
+  "name": "Cheval Blanc Paris",
+  "address": "8 Quai du Louvre",
+  "location": "Paris, France",
+  "city": "Paris",
+  "country": "FR",
+  "latitude": 48.85862,
+  "longitude": 2.34177,
+  "website": "https://www.chevalblanc.com/en/maison/paris/",
+  "description": "With an iconic setting in the much-loved Samaritaine building, this 1st Arrondissement hotel is a tribute to French savoir-faire and craftsmanship. Take a short stroll one way and get to the Cathedral of Notre Dame, walk the other way and arrive at the Eiffel Tower, and pop around the corner to find the Louvre. The hotel has just 72 rooms, providing a discreet and exclusive escape in the heart of the city. Bite into a warm croissant just out of the oven, sink into the foam of a delicately scented bath, and capture the soul of Paris from your winter garden.",
+  "image_count": 25,
+  "images": [
+    {
+      "id": "a0dd604f-2573-49c4-aef8-dff80ef201d7",
+      "file": "images/a0dd604f-2573-49c4-aef8-dff80ef201d7.jpg",
+      "sort_order": 0,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "suite",
+        "room_vista"
+      ],
+      "description": "A bright, luxurious suite features a large window offering a panoramic view of a city street, bridge, and historic buildings. The room is furnished with a large bed, a vanity desk with a mirror, two armchairs, and a small round table by the window, all in a neutral color palette. A decorative chandelier hangs from the ceiling, and a vase of flowers adds a touch of elegance to the dresser.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "ca4ab19d-6c30-4489-8963-b2929329fdfe",
+      "file": "images/ca4ab19d-6c30-4489-8963-b2929329fdfe.jpg",
+      "sort_order": 1,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "bathroom",
+        "suite",
+        "room_view"
+      ],
+      "description": "This image showcases a luxurious, modern bathroom featuring a sleek white bathtub set into a polished light-colored stone surround. A glass-enclosed shower is visible next to a chrome towel warmer. Through a clear glass partition, a well-appointed guest room with a bed and bedside table can be seen, suggesting an open-plan suite design. A large window in the background offers a glimpse of an urban cityscape.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "3b1ba9c4-5570-44fa-b58d-db3ebabd9c7f",
+      "file": "images/3b1ba9c4-5570-44fa-b58d-db3ebabd9c7f.jpg",
+      "sort_order": 2,
+      "quality_score": 0.9,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "suite",
+        "room_vista"
+      ],
+      "description": "The image captures a bright, modern suite interior, viewed from a doorway. A comfortable sofa with decorative pillows and a desk with a lamp are positioned by a large window. Beyond the window, a clear city vista unfolds, featuring historic architecture and distant spires under a bright sky. The room features light wood paneling, dark flooring, and a patterned rug, creating a sophisticated and inviting atmosphere.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "42c0a3ae-f4f9-43d1-a4fb-887a8cd08816",
+      "file": "images/42c0a3ae-f4f9-43d1-a4fb-887a8cd08816.jpg",
+      "sort_order": 3,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room",
+        "room_view"
+      ],
+      "description": "A bright and elegantly furnished guest room is depicted, featuring a large bed with crisp white linens and a textured throw. An upholstered bench sits at the foot of the bed, while a modern nightstand with a tall lamp and glassware is positioned to the right. The room showcases patterned wallpaper, a textured carpet, and a plush armchair with an ottoman, all bathed in natural light from a visible window.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "560c2e2e-4be0-4fa2-9849-bc0ae67bb9a4",
+      "file": "images/560c2e2e-4be0-4fa2-9849-bc0ae67bb9a4.jpg",
+      "sort_order": 4,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "suite",
+        "room_vista"
+      ],
+      "description": "A luxurious hotel suite is depicted with a spacious layout, featuring a large bed and a comfortable seating area with an armchair and an ottoman. Expansive floor-to-ceiling windows offer a panoramic view of a city, showcasing a river, bridges, and historic buildings. The room is elegantly furnished with a dressing table and a modern chandelier, all in a sophisticated, light-toned palette.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "c7111199-cd75-4d34-99a5-ce4651e52c92",
+      "file": "images/c7111199-cd75-4d34-99a5-ce4651e52c92.jpg",
+      "sort_order": 5,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "suite",
+        "room_vista",
+        "drinks"
+      ],
+      "description": "A bright and modern hotel suite features a comfortable seating area with a plush, light green ottoman and a textured armchair. Large floor-to-ceiling windows with dark frames offer an expansive view of a city skyline, showcasing traditional European architecture under a bright sky. A contemporary table with a unique, sculptural base holds a white teapot and cups, suggesting a relaxing moment within the luxurious space. The room is adorned with a patterned rug over dark wooden flooring, enhancing its sophisticated ambiance.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "84a00c5d-3b78-476d-89ed-770d82572758",
+      "file": "images/84a00c5d-3b78-476d-89ed-770d82572758.jpg",
+      "sort_order": 6,
+      "quality_score": 1.0,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "detail",
+        "suite"
+      ],
+      "description": "This image showcases a luxurious, custom-built wardrobe or walk-in closet, featuring light wood shelving and drawers with glass fronts. Integrated LED lighting illuminates neatly organized clothing, designer handbags, and shoes. A sleek silver suitcase rests on a lower shelf, suggesting a well-appointed space for travelers. The rich dark wood flooring complements the warm tones of the wardrobe interior.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "f3cb3066-a720-4c75-85ff-9e5ce8db14d1",
+      "file": "images/f3cb3066-a720-4c75-85ff-9e5ce8db14d1.jpg",
+      "sort_order": 7,
+      "quality_score": 1.0,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "restaurant",
+        "detail",
+        "ambiance"
+      ],
+      "description": "The image captures a sophisticated dining area within a luxury hotel restaurant. A round table in the foreground is elegantly set with white tablecloths, unique plates featuring a central colored design, and crystal glassware. The space is adorned with stylish, patterned armchairs and a wooden credenza displaying striking black and white decorative vases, all contributing to a refined ambiance. Natural light filters in from a window visible in the background, illuminating the tasteful decor.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "61225df4-1854-408d-be2b-4c6c83163ae3",
+      "file": "images/61225df4-1854-408d-be2b-4c6c83163ae3.jpg",
+      "sort_order": 8,
+      "quality_score": 1.0,
+      "appeal_score": 1.0,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "bathroom",
+        "guest_room"
+      ],
+      "description": "A luxurious bathroom is depicted with light-colored, veined stone walls and floors, featuring a double vanity with modern chrome fixtures and a large mirror. A spacious walk-in shower with a dark-framed glass enclosure is visible, alongside a sleek white bathtub in the foreground. Through a clear glass partition, a portion of an adjoining guest room, including a bed and a bedside lamp, can be seen, suggesting an open-plan or connected suite design.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "64ca62f6-d317-450e-b68f-b7b3cac977ba",
+      "file": "images/64ca62f6-d317-450e-b68f-b7b3cac977ba.jpg",
+      "sort_order": 9,
+      "quality_score": 0.98,
+      "appeal_score": 0.95,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "suite",
+        "room_vista",
+        "terrace"
+      ],
+      "description": "This image showcases a bright and spacious luxury suite, featuring a comfortable living area with a patterned sofa, an armchair, and a dining table with chairs. Large glass doors open onto a private outdoor terrace furnished with seating, offering an attractive vista of distant city buildings. The room is elegantly decorated with contemporary furnishings and warm lighting, creating an inviting atmosphere.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "7730e8c5-b991-44c3-bab7-ec44ab26beb9",
+      "file": "images/7730e8c5-b991-44c3-bab7-ec44ab26beb9.jpg",
+      "sort_order": 10,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "suite",
+        "room_vista",
+        "terrace",
+        "drinks",
+        "food"
+      ],
+      "description": "This image captures a bright, elegantly appointed hotel suite, featuring a comfortable bed with a textured duvet in the foreground. Large glass doors open onto a private terrace furnished with a small table and two woven chairs. On the table, two glasses of white wine, a cake, and a bowl of strawberries are arranged, suggesting an intimate dining experience. Beyond the terrace, a classic cityscape of rooftops and chimneys extends under a bright sky.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "824e0d48-7116-41b1-a39d-c3b9a3bc5e2d",
+      "file": "images/824e0d48-7116-41b1-a39d-c3b9a3bc5e2d.jpg",
+      "sort_order": 11,
+      "quality_score": 0.9,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "terrace",
+        "view",
+        "drinks",
+        "food"
+      ],
+      "description": "The image captures an inviting outdoor terrace featuring a small round glass-top table and two chairs. On the table, two glasses of white wine, a bowl of fresh strawberries, and a bundt cake are neatly arranged. The background reveals a classic cityscape of Parisian rooftops and chimneys, with the iconic Eiffel Tower subtly visible in the distance under a bright, cloudy sky.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "c072b3d0-01b0-434c-a55e-28e9d3ce8aa2",
+      "file": "images/c072b3d0-01b0-434c-a55e-28e9d3ce8aa2.jpg",
+      "sort_order": 12,
+      "quality_score": 1.0,
+      "appeal_score": 1.0,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "bathroom",
+        "guest_room"
+      ],
+      "description": "A luxurious bathroom is depicted with light-colored, veined stone walls and floors, featuring a double vanity with modern chrome fixtures and a large mirror. A spacious walk-in shower with a dark-framed glass enclosure is visible, alongside a sleek white bathtub in the foreground. Through a clear glass partition, a portion of an adjoining guest room, including a bed and a bedside lamp, can be seen, suggesting an open-plan or connected suite design.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "7c653118-d8ed-4056-b322-3f4fbe270809",
+      "file": "images/7c653118-d8ed-4056-b322-3f4fbe270809.jpg",
+      "sort_order": 13,
+      "quality_score": 0.95,
+      "appeal_score": 0.98,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "terrace",
+        "room_vista",
+        "food",
+        "drinks"
+      ],
+      "description": "The image captures a sunlit private terrace featuring a small glass-top table with a wicker chair. On the table, a bundt cake and two glasses of juice are arranged. Beyond the elegant stone balustrade, a panoramic view of Paris unfolds, showcasing the Eiffel Tower, the Seine River, and the city's distinctive architecture under a clear sky.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "c1ae557e-6513-48c9-960c-89702d459721",
+      "file": "images/c1ae557e-6513-48c9-960c-89702d459721.jpg",
+      "sort_order": 14,
+      "quality_score": 1.0,
+      "appeal_score": 1.0,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "bathroom",
+        "guest_room"
+      ],
+      "description": "A luxurious bathroom features a spacious walk-in shower with elegant marble walls and a modern bathtub in the foreground. A polished chrome towel warmer and a vanity with a round mirror are visible on the right side. Through a clear glass partition, a portion of a guest room with a neatly made bed, a nightstand, and a decorative lamp can be seen, indicating an open-plan design.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "7c62653e-7ad4-4705-a205-6b65bbf75395",
+      "file": "images/7c62653e-7ad4-4705-a205-6b65bbf75395.jpg",
+      "sort_order": 15,
+      "quality_score": 1.0,
+      "appeal_score": 1.0,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "bathroom",
+        "detail"
+      ],
+      "description": "A close-up shot reveals a luxurious bathroom vanity area featuring a white marble countertop and polished chrome fixtures. A vase with fresh flowers, neatly rolled white towels, and branded toiletries are elegantly arranged on the counter. The vanity cabinets below showcase a distinctive woven texture framed by chrome accents. A large mirror reflects the upper part of the room, adding to the bright and spacious feel.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "976fe0da-445d-4978-8308-f501df3affea",
+      "file": "images/976fe0da-445d-4978-8308-f501df3affea.jpg",
+      "sort_order": 16,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "suite",
+        "room_vista"
+      ],
+      "description": "This image depicts a bright and spacious luxury hotel suite, featuring a living area furnished with a sofa, armchairs, and a small dining table. A large floor-to-ceiling window dominates the far wall, revealing a private balcony and an expansive urban vista of a historic cityscape. The interior is decorated in a contemporary style with neutral tones, textured wallpaper, and a patterned rug, creating an elegant and inviting atmosphere.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "c7d3a14f-39e5-4e5c-82a1-9f681d67ebe4",
+      "file": "images/c7d3a14f-39e5-4e5c-82a1-9f681d67ebe4.jpg",
+      "sort_order": 17,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "suite",
+        "room_vista",
+        "drinks",
+        "food"
+      ],
+      "description": "The image captures a luxurious suite interior featuring a round glass-top table set with a white teapot, two teacups, and a tray of small pastries. Two elegant chairs with light-colored cushions are partially visible on either side of the table. A large window frames a stunning view of historic city architecture, including a grand building with columns and a French flag, and a prominent stone church or cathedral under a partly cloudy sky. The scene suggests a serene and upscale experience with a remarkable urban outlook.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "8880e49d-3881-426d-a908-2072ad380b5c",
+      "file": "images/8880e49d-3881-426d-a908-2072ad380b5c.jpg",
+      "sort_order": 18,
+      "quality_score": 0.9,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room",
+        "room_view"
+      ],
+      "description": "This image showcases a luxurious guest room, featuring a king-sized bed with crisp white linens and a padded headboard. A textured bench sits at the foot of the bed, complementing the patterned carpet. To the right, a bedside table holds a tall lamp and glassware, with a plush armchair visible further back, and a window with sheer curtains allowing natural light to fill the space. The room is adorned with elegant, textured wallpaper and a distinctive ceiling light fixture, creating a sophisticated ambiance.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "bf04124d-8a92-428d-afcb-d28f3b2047c0",
+      "file": "images/bf04124d-8a92-428d-afcb-d28f3b2047c0.jpg",
+      "sort_order": 19,
+      "quality_score": 1.0,
+      "appeal_score": 0.95,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "detail",
+        "suite"
+      ],
+      "description": "This image captures a luxurious walk-in closet or wardrobe area, featuring light-toned wooden shelving and drawers with integrated lighting. A trench coat, an umbrella, and a striped top hang on rails, while two designer handbags and two silver suitcases are neatly stored on shelves. The dark wooden floor complements the warm tones of the closet, creating an organized and elegant storage solution within a guest suite.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "cf3d6356-4479-4143-b621-eac9a8803d95",
+      "file": "images/cf3d6356-4479-4143-b621-eac9a8803d95.jpg",
+      "sort_order": 20,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "bar",
+        "view",
+        "ambiance"
+      ],
+      "description": "The image captures a sophisticated bar area, featuring a long, light-colored counter equipped with various bar tools and an array of glassware. Dark leather bar stools are visible in the foreground, inviting guests to sit. Large windows behind the bar offer a panoramic view of a city skyline, complete with distant buildings and a prominent dome, while decorative hot air balloons are suspended near the glass. A distinctive, modern light fixture adorns the wooden paneling behind the bar, enhancing the stylish and inviting atmosphere.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "4ecc1f2c-10d4-4b10-bfe6-4e736d030266",
+      "file": "images/4ecc1f2c-10d4-4b10-bfe6-4e736d030266.jpg",
+      "sort_order": 21,
+      "quality_score": 0.9,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "terrace",
+        "detail",
+        "view"
+      ],
+      "description": "The image captures a meticulously set outdoor dining table on a terrace, featuring a polished wooden surface and stylish striped chairs. Each place setting includes a wine glass, a water tumbler, and a neatly folded napkin. A vibrant jester-themed weather vane acts as a playful centerpiece. In the softly blurred background, the iconic Eiffel Tower rises above a dense green hedge, indicating a desirable city view.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "1e556241-847c-44d5-9223-1840f03413c9",
+      "file": "images/1e556241-847c-44d5-9223-1840f03413c9.jpg",
+      "sort_order": 22,
+      "quality_score": 0.95,
+      "appeal_score": 0.98,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "pool_indoor",
+        "view",
+        "ambiance",
+        "lounge"
+      ],
+      "description": "This image captures a luxurious indoor swimming pool with a distinctive wavy blue pattern on its floor and a matching illuminated ceiling. Large floor-to-ceiling windows along one side offer an expansive view of a cityscape with buildings and trees. Along the other side of the pool, several white lounge chairs are arranged behind sheer white curtains, providing a serene relaxation area. The modern design, ample natural light, and sophisticated lighting create a highly aspirational ambiance.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "b4c84da0-e8c6-42f5-a086-97c60b0b0436",
+      "file": "images/b4c84da0-e8c6-42f5-a086-97c60b0b0436.jpg",
+      "sort_order": 23,
+      "quality_score": 1.0,
+      "appeal_score": 1.0,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "treatment_room",
+        "spa",
+        "ambiance"
+      ],
+      "description": "This image showcases a serene and luxurious spa treatment room, featuring two pristine massage beds with crisp white linens. The room is designed with a calming neutral palette, incorporating light wood tones, textured wall panels, and elegant recessed lighting. Two plush white bathrobes hang on the wall, while a vanity area with sinks and amenities is visible in the background, contributing to the tranquil and upscale atmosphere.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "228108cb-bf31-4c40-abe1-9d74d3daac3c",
+      "file": "images/228108cb-bf31-4c40-abe1-9d74d3daac3c.jpg",
+      "sort_order": 24,
+      "quality_score": 1.0,
+      "appeal_score": 1.0,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "spa",
+        "ambiance",
+        "lounge"
+      ],
+      "description": "This image captures a luxurious and brightly lit retail space, likely a high-end beauty boutique or a spa's product area. Illuminated display cases showcase various beauty products, including prominent 'Dior Prestige' and 'Capture Totale' collections. The room features elegant light wood paneling, a herringbone patterned floor, and comfortable upholstered armchairs in the foreground, suggesting a sophisticated lounge or waiting area.",
+      "width": null,
+      "height": null
+    }
+  ]
+}

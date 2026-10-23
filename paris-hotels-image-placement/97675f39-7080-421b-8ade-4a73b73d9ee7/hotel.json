@@ -1,0 +1,429 @@
+{
+  "id": "97675f39-7080-421b-8ade-4a73b73d9ee7",
+  "name": "Sofitel Paris Le Faubourg",
+  "address": "Paris",
+  "location": "Paris, France",
+  "city": "Paris",
+  "country": "FR",
+  "latitude": 48.86837,
+  "longitude": 2.32143,
+  "website": "http://sofitel.accor.com/hotels/1295?merchantid=seo-maps-FR-1295&sourceid=aw-cen&utm_source=google+Maps&utm_medium=seo+maps&utm_campaign=seo+maps&utm_term=Sofitel-Launch",
+  "description": "Sofitel Paris Le Faubourg is an Accor property between Faubourg Saint-Honoré and the Champs-Élysées, with interiors by designer Didier Gomez.\nThe hotel has 148 rooms, a secret garden with palm trees and fountains, sunny terraces, a library, a fitness and spa area, parking, room service, and on-site dining.\nThe glamorous lobby and Haute Couture-inspired design extend through the public spaces, with the hotel team coordinating bespoke 'cousu-main' celebration experiences.",
+  "image_count": 25,
+  "images": [
+    {
+      "id": "ecdbe2f2-c909-4006-b60d-0ce1beef27d1",
+      "file": "images/ecdbe2f2-c909-4006-b60d-0ce1beef27d1.jpg",
+      "sort_order": 0,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "exterior",
+        "entrance",
+        "people"
+      ],
+      "description": "A grand, symmetrical exterior shot of a luxury hotel entrance, featuring a classic white stone facade with black awnings over multiple windows. A prominent glass and metal canopy extends over a wooden revolving door, above which the hotel name 'SOFITEL' is displayed in gold lettering. Lush green plants adorn the window sills on the upper floor, and potted topiary plants line the sidewalk in front of the entrance. Reflections of people can be seen within the revolving door, suggesting activity inside.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "375bc90f-c888-471a-89c0-e8d39a95181d",
+      "file": "images/375bc90f-c888-471a-89c0-e8d39a95181d.jpg",
+      "sort_order": 1,
+      "quality_score": 1.0,
+      "appeal_score": 1.0,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "lobby",
+        "ambiance"
+      ],
+      "description": "A grand and opulent hotel lobby or lounge is depicted, featuring high ceilings with intricate gold and grey molding. The space is furnished with various elegant seating arrangements, including grey sofas with yellow accent pillows and plush armchairs, set on polished marble floors. Large, vibrant floral arrangements in shades of purple, green, and yellow are prominently displayed, alongside ornate gold decorative elements and framed artwork on the walls. A large, multi-tiered chandelier hangs from the ceiling, illuminating the luxurious interior.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "95d2c14e-d20d-4dcd-a8d3-b367e0359cec",
+      "file": "images/95d2c14e-d20d-4dcd-a8d3-b367e0359cec.jpg",
+      "sort_order": 2,
+      "quality_score": 0.9,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "restaurant",
+        "exterior",
+        "garden"
+      ],
+      "description": "This image captures an elegant outdoor dining area, featuring several tables set with white tablecloths, glassware, and cutlery. Black metal chairs with colorful cushions are arranged around the tables, which are nestled amidst lush greenery, including climbing plants on trellises and a prominent palm tree. A modern wall-mounted fountain with flowing water adds a serene element to the light-colored architectural backdrop.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "4c9f102e-4a87-4655-8e28-ae3a5f65ca6b",
+      "file": "images/4c9f102e-4a87-4655-8e28-ae3a5f65ca6b.jpg",
+      "sort_order": 3,
+      "quality_score": 0.9,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "terrace",
+        "restaurant",
+        "exterior",
+        "entrance"
+      ],
+      "description": "The image captures a stylish outdoor terrace setup for a restaurant named 'Blossom', located in front of an elegant stone building with a grand wooden entrance. The terrace features comfortable-looking brown leather chairs, a unique hanging table with a plant, and numerous lush green potted plants. Black awnings and planters define the outdoor dining space, which is set on a raised wooden platform.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "b35c3dc7-3528-4464-94e6-d85a9ad25d9c",
+      "file": "images/b35c3dc7-3528-4464-94e6-d85a9ad25d9c.jpg",
+      "sort_order": 4,
+      "quality_score": 1.0,
+      "appeal_score": 1.0,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "lobby"
+      ],
+      "description": "This image captures a grand and luxurious hotel lobby, characterized by its high ceilings and a prominent central skylight. Elegant grey sofas and chairs with yellow and grey patterned cushions are arranged in seating areas, complemented by decorative side tables. Large, vibrant floral arrangements in purple and yellow hues serve as striking centerpieces, enhancing the sophisticated ambiance of the space. The lobby features polished marble floors, gold architectural accents, and subtle wall lighting.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "9e6dbfc9-0805-4efe-9fd2-f7ecd494dbca",
+      "file": "images/9e6dbfc9-0805-4efe-9fd2-f7ecd494dbca.jpg",
+      "sort_order": 5,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "restaurant",
+        "ambiance",
+        "exterior"
+      ],
+      "description": "A bright and elegant restaurant interior features a striking black and white checkered floor and plush yellow velvet chairs. Large golden, sculptural chandeliers hang from the ceiling, illuminating tables meticulously set for dining. Floor-to-ceiling windows offer a view of a lush green outdoor space with additional tables, creating a seamless indoor-outdoor dining experience. Tall, spherical floor lamps flank the entrance to the outdoor area, adding to the sophisticated decor.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "5f43f582-2fe7-47a2-9aa3-6fcef61ab369",
+      "file": "images/5f43f582-2fe7-47a2-9aa3-6fcef61ab369.jpg",
+      "sort_order": 6,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "lounge",
+        "ambiance"
+      ],
+      "description": "This image captures a luxurious and stylish lounge area, characterized by dark wood paneling and a striking black and white geometric patterned rug. Various seating arrangements are visible, including plush black leather armchairs, velvet chairs, and banquettes, all centered around small, dark tables adorned with decorative candle holders. The walls are decorated with an array of framed black and white artwork, and a modern, angular chandelier hangs prominently from the ceiling, illuminating the sophisticated space.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "25b9412b-558e-4fd3-9026-21a7767718e9",
+      "file": "images/25b9412b-558e-4fd3-9026-21a7767718e9.jpg",
+      "sort_order": 7,
+      "quality_score": 0.95,
+      "appeal_score": 0.85,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "bar",
+        "exterior",
+        "terrace"
+      ],
+      "description": "The image captures the inviting exterior of \"LE BAR DU FAUBOURG,\" an outdoor bar or cafe situated on a city street. Black awnings prominently display the venue's name in gold lettering, extending over a series of dark planters filled with lush green foliage. To the right, a raised wooden platform features stylish outdoor seating, including a unique hanging chair with orange cushions and a small table, all shaded by a large white umbrella. The background reveals a classic building facade with ornate architectural details and windows.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "1d9626a8-bef6-46db-82f3-073daa014ab5",
+      "file": "images/1d9626a8-bef6-46db-82f3-073daa014ab5.jpg",
+      "sort_order": 8,
+      "quality_score": 0.9,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "spa",
+        "amenity"
+      ],
+      "description": "The image shows the entrance to a luxurious hammam, featuring curved walls adorned with white mosaic tiles interspersed with gold accents. A frosted glass door, etched with the word \"Hammam,\" opens into the steam room, revealing a tiled bench inside. Two soft white bathrobes hang on chrome hooks on the wall, beside a recessed alcove holding neatly stacked white towels.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "d4a04393-1d0c-40b7-b577-6c4fe571e3af",
+      "file": "images/d4a04393-1d0c-40b7-b577-6c4fe571e3af.jpg",
+      "sort_order": 9,
+      "quality_score": 0.9,
+      "appeal_score": 0.8,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "gym"
+      ],
+      "description": "A modern hotel gym is depicted, featuring a treadmill, a multi-gym machine, and an elliptical trainer on dark wood flooring. The space is illuminated by recessed ceiling lights and accent lighting on decorative shelves displaying vases and a sculptural object. A small seating area with two dark wicker chairs and a table holding a bowl of green apples is visible in the foreground. An open doorway reveals a glimpse of an adjacent room with sheer brown curtains.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "af039cab-2434-48c8-9c82-e249993750f0",
+      "file": "images/af039cab-2434-48c8-9c82-e249993750f0.jpg",
+      "sort_order": 10,
+      "quality_score": 0.9,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "lobby",
+        "ambiance"
+      ],
+      "description": "The image captures a luxurious interior space, likely a lobby or entrance area, featuring curved walls clad in dark, stitched panels. A central circular area with mosaic floor tiles highlights a cylindrical mosaic pedestal topped with a gleaming golden sphere, illuminated by a large, tiered chandelier. The space also includes a recessed display niche with decorative items, and transitions to a warm wood-look tiled floor, creating a sophisticated and inviting atmosphere.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "3c08c453-b3d9-4dbc-9b53-42d9ad8599dc",
+      "file": "images/3c08c453-b3d9-4dbc-9b53-42d9ad8599dc.jpg",
+      "sort_order": 11,
+      "quality_score": 1.0,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room",
+        "ambiance"
+      ],
+      "description": "This image showcases a luxurious guest room, featuring a large bed dressed with a vibrant yellow throw and patterned green pillows. Adjacent to the bed, a gold-toned sofa with various cushions and a small white round coffee table create a comfortable seating area. The room is elegantly decorated with patterned grey wallpaper on one wall, white paneled walls, and abstract artwork, complemented by a geometric patterned rug on the floor.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "b17d7e64-a077-4bc7-bb02-a9efcf7bb066",
+      "file": "images/b17d7e64-a077-4bc7-bb02-a9efcf7bb066.jpg",
+      "sort_order": 12,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "bathroom"
+      ],
+      "description": "A modern hotel bathroom features a walk-in shower with a rain showerhead and a partially visible bathtub. The walls are adorned with light blue and grey mosaic tiles, contrasting with larger cream-colored tiles. A white vanity with an integrated sink holds luxury toiletries, fresh white towels, and a decorative plant arrangement, while a large mirror reflects an adjacent room with artwork.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "5ad43df2-fc7b-40de-8431-eb161541d4f3",
+      "file": "images/5ad43df2-fc7b-40de-8431-eb161541d4f3.jpg",
+      "sort_order": 13,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room",
+        "bathroom",
+        "ambiance"
+      ],
+      "description": "This image showcases a luxurious guest room featuring a large bed with a gold-framed headboard and crisp white linens, complemented by a green velvet bench at its foot. The room boasts ornate dark grey molding and a subtly patterned wall, with a decorative pendant light illuminating a bedside table. Through a stylish black-framed glass partition, a modern bathroom is visible, revealing a round basin, marble wall accents, and neatly stacked towels. The overall decor emphasizes a sophisticated and opulent atmosphere.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "92947c1d-77b2-4c98-93b2-b549e64250e6",
+      "file": "images/92947c1d-77b2-4c98-93b2-b549e64250e6.jpg",
+      "sort_order": 14,
+      "quality_score": 1.0,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "suite",
+        "people",
+        "food",
+        "drinks"
+      ],
+      "description": "A luxurious hotel suite living area features a plush chartreuse velvet sofa with decorative pillows, a round white coffee table, and a grey upholstered armchair. On the coffee table, a breakfast spread includes fresh fruit, pastries, and beverages. A woman in a white suit stands in a doorway, looking at her phone, adding a sense of activity to the elegantly decorated space with its patterned carpet and mirrored wall panels. The room is adorned with a large abstract artwork and a decorative round mirror, enhancing its sophisticated ambiance.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "16ccc3cb-7f91-48bf-a91c-4037d234c731",
+      "file": "images/16ccc3cb-7f91-48bf-a91c-4037d234c731.jpg",
+      "sort_order": 15,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "suite",
+        "ambiance",
+        "room_view"
+      ],
+      "description": "This image captures a luxurious hotel suite's living area, featuring a cream-colored sofa adorned with vibrant cushions, a modern oval coffee table, and a black armchair. The dark grey wall is decorated with ornate sconces and a large framed artwork, complemented by an elaborate gold-framed mirror on the left. A window with beige drapes and a small round table with a water bottle and glasses are visible on the right, contributing to the sophisticated ambiance of the space.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "f9472674-bfbd-4264-8873-af90931f27be",
+      "file": "images/f9472674-bfbd-4264-8873-af90931f27be.jpg",
+      "sort_order": 16,
+      "quality_score": 1.0,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "bathroom"
+      ],
+      "description": "This image showcases a luxurious and modern hotel bathroom. It features a large white rectangular bathtub with elegant white marble paneling on the side and surrounding walls. Opposite the tub is a double vanity with two contemporary white vessel sinks, set against dark grey tiled walls and illuminated by a large mirror and wall-mounted lights. A chrome heated towel rail with a fresh white towel is visible next to the vanity, and the room is topped with a distinctive gold-colored ceiling.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "928a779c-fb5c-4605-9aa1-5cb2f15c41df",
+      "file": "images/928a779c-fb5c-4605-9aa1-5cb2f15c41df.jpg",
+      "sort_order": 17,
+      "quality_score": 1.0,
+      "appeal_score": 1.0,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "suite",
+        "bathroom",
+        "ambiance"
+      ],
+      "description": "A luxurious hotel suite features a king-sized bed with a gold-framed headboard and crisp white linens, accented by a grey throw and a light green velvet bench. Ornate dark grey molding and a subtly patterned wallpaper adorn the walls, with a modern pendant light fixture illuminating the space. To the right, a glass and dark metal partition reveals a stylish bathroom with a circular basin sink, marble wall, and neatly stacked towels. A decorative table lamp on a white dresser adds to the sophisticated ambiance.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "c44fdaa3-0160-4921-b624-fd758254666f",
+      "file": "images/c44fdaa3-0160-4921-b624-fd758254666f.jpg",
+      "sort_order": 18,
+      "quality_score": 1.0,
+      "appeal_score": 0.95,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "suite",
+        "people",
+        "room_view",
+        "food",
+        "drinks"
+      ],
+      "description": "The image captures a luxurious hotel suite's living area, featuring a woman seated in a vibrant yellow armchair by a large window. In the foreground, a gold velvet sofa with decorative cushions is positioned next to a white coffee table holding a tray with breakfast items including pastries, fruit, and orange juice. The room is elegantly appointed with an abstract gold painting, ornate mirrored panels, and a textured grey wall, creating a sophisticated and inviting atmosphere.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "ee4dc13f-09cb-4b6c-ad8e-93e15d9722ae",
+      "file": "images/ee4dc13f-09cb-4b6c-ad8e-93e15d9722ae.jpg",
+      "sort_order": 19,
+      "quality_score": 1.0,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room",
+        "ambiance"
+      ],
+      "description": "This image showcases a luxurious guest room, featuring a large bed dressed in a vibrant lime green and grey patterned duvet, flanked by elegant white lamps on dark side tables. The room's sophisticated ambiance is enhanced by white wall paneling, textured grey wallpaper, and a curated selection of artwork, including a large abstract piece and a gallery of black and white photographs. An open doorway provides a glimpse into an adjoining space, revealing a green upholstered chair and modern side tables. A patterned bench sits at the foot of the bed, complementing the room's contemporary design.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "a70027d1-db9d-4e34-890f-13e4a3513ba5",
+      "file": "images/a70027d1-db9d-4e34-890f-13e4a3513ba5.jpg",
+      "sort_order": 20,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "suite",
+        "kids_facility",
+        "room_view"
+      ],
+      "description": "The image depicts a bright and elegantly appointed hotel suite, featuring a bed with a striped duvet on the left side. To the right, a charming children's setup includes a large teddy bear seated on a classic-style chair, surrounded by colorful balloons, toy cars, and a small table laden with sweets. Large windows with sheer blinds and drapes provide natural light, hinting at an exterior view without revealing specific details.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "34cd57fb-f53f-45a6-ab08-1f7dfb806f0c",
+      "file": "images/34cd57fb-f53f-45a6-ab08-1f7dfb806f0c.jpg",
+      "sort_order": 21,
+      "quality_score": 1.0,
+      "appeal_score": 1.0,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "suite",
+        "room_view"
+      ],
+      "description": "This image showcases a luxurious hotel suite, featuring a spacious living area with a cream sofa, a large black oval coffee table, and elegant armchairs. Beyond, a dedicated dining or workspace is visible with a table and chairs. An open doorway reveals a plush bedroom with a large bed and a decorative headboard, all adorned with sophisticated, contemporary decor. A window is visible in the living area, allowing natural light into the space.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "7a9c7a74-c8e0-439b-9f75-20d83cb0d92b",
+      "file": "images/7a9c7a74-c8e0-439b-9f75-20d83cb0d92b.jpg",
+      "sort_order": 22,
+      "quality_score": 0.95,
+      "appeal_score": 0.95,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "suite",
+        "bathroom",
+        "ambiance",
+        "room_view"
+      ],
+      "description": "This image showcases a luxurious hotel suite featuring a king-size bed with a faux fur throw and textured headboard. An open-plan bathroom area is visible behind the bed, complete with a dark vanity, basin, and a freestanding bathtub beneath sloped attic windows. The room is elegantly furnished with modern design elements, rich textures, and warm lighting, creating a sophisticated ambiance.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "449021ee-501b-41e1-a79e-7d0ca71a88fa",
+      "file": "images/449021ee-501b-41e1-a79e-7d0ca71a88fa.jpg",
+      "sort_order": 23,
+      "quality_score": 1.0,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room",
+        "ambiance",
+        "bathroom"
+      ],
+      "description": "A luxurious guest room features a large bed with a green velvet headboard, a vibrant yellow and grey patterned throw, and a geometric green pillow. The room is adorned with elegant white wall paneling, decorative moldings, and contemporary abstract artwork above the bed. An open doorway reveals a modern bathroom with light blue mosaic tiles and a white vanity. A patterned bench at the foot of the bed and a light green upholstered chair complete the sophisticated decor.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "c95a468a-1105-4e41-8ade-fc376a4ceeea",
+      "file": "images/c95a468a-1105-4e41-8ade-fc376a4ceeea.jpg",
+      "sort_order": 24,
+      "quality_score": 0.9,
+      "appeal_score": 0.8,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room",
+        "room_view"
+      ],
+      "description": "A luxurious guest room is depicted, featuring a large bed with crisp white linens and a vibrant yellow and grey patterned throw. Adjacent to the bed, a comfortable yellow sofa is positioned beneath a large abstract artwork, with a matching yellow armchair and a window visible on the left. The room's decor includes elegant white wall paneling, a textured grey accent wall, and a small table with a floral arrangement and bottled water, creating an inviting and stylish ambiance.",
+      "width": null,
+      "height": null
+    }
+  ]
+}

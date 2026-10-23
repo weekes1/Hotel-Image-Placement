@@ -1,0 +1,426 @@
+{
+  "id": "378763b1-8463-4ebd-92c0-f68fe376790f",
+  "name": "J.K. Place Paris",
+  "address": "82 Rue de Lille",
+  "location": "Paris, France",
+  "city": "Paris",
+  "country": "FR",
+  "latitude": 48.861,
+  "longitude": 2.32154,
+  "website": "https://www.jkplace.paris/",
+  "description": "J.K. Place Paris is a Leading Hotels of the World property on the Rive Gauche next to the Musee d'Orsay.\nThe hotel has 29 rooms and suites with marble and contemporary wood fireplaces, an indoor pool, a sauna, a steam room, a Technogym fitness room, parking, and room service.\nDining is at Casa Tua Restaurant, the Paris outpost of the Miami Beach and Aspen restaurant; tailored experiences include museum privatisations and private behind-the-scenes tours.",
+  "image_count": 25,
+  "images": [
+    {
+      "id": "65dc9246-db80-4a5e-9de7-d2210ab1f75b",
+      "file": "images/65dc9246-db80-4a5e-9de7-d2210ab1f75b.jpg",
+      "sort_order": 0,
+      "quality_score": 1.0,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room",
+        "room_view"
+      ],
+      "description": "A luxurious guest room features a large bed with white linens and monogrammed pillows, flanked by mirrored panels and elegant bedside tables with lamps. The room is decorated with a rich purple carpet, patterned curtains, and white paneled walls. A small bench sits at the foot of the bed, and a comfortable armchair with a floor lamp is visible in the corner, creating a sophisticated and inviting atmosphere. A window with sheer and patterned drapes is visible on the left side of the room.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "3ba54361-6337-4b0a-b5d6-f1bd77836670",
+      "file": "images/3ba54361-6337-4b0a-b5d6-f1bd77836670.jpg",
+      "sort_order": 1,
+      "quality_score": 1.0,
+      "appeal_score": 0.95,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room",
+        "bathroom"
+      ],
+      "description": "A bright and elegantly furnished guest room features a large bed with crisp white linens and monogrammed pillows. A light grey chaise lounge with a patterned throw blanket is positioned at the foot of the bed. To the left, an open doorway reveals a dressing area with a wooden chest of drawers and a skylight. To the right, another open door leads to a modern bathroom with a sink and mirror.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "62646f42-6082-466d-aac3-702d0e4151bd",
+      "file": "images/62646f42-6082-466d-aac3-702d0e4151bd.jpg",
+      "sort_order": 2,
+      "quality_score": 1.0,
+      "appeal_score": 1.0,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "suite",
+        "ambiance",
+        "room_view"
+      ],
+      "description": "This image captures a bright, elegantly furnished attic suite with sloped ceilings. The room features a large bed with white linens, a comfortable lounge chair with a throw blanket, and a dedicated desk area by a window. Neutral tones, natural light, and modern decor create a serene and inviting atmosphere.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "ff0cc457-7209-466b-be0a-acbda5d3787f",
+      "file": "images/ff0cc457-7209-466b-be0a-acbda5d3787f.jpg",
+      "sort_order": 3,
+      "quality_score": 0.95,
+      "appeal_score": 0.95,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "suite",
+        "bathroom"
+      ],
+      "description": "This image captures a luxurious hotel suite, showcasing a neatly made bed with white linens and a patterned throw blanket in the foreground. Through an open doorway, a sophisticated bathroom vanity area is visible, featuring double sinks, dark countertops, and multiple mirrors reflecting a window with patterned curtains. To the left, an open wardrobe or dressing area with hanging clothes can be seen, contributing to the elegant and well-appointed feel of the room.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "4f3f792b-0ae8-4d62-897f-0c06aaa60827",
+      "file": "images/4f3f792b-0ae8-4d62-897f-0c06aaa60827.jpg",
+      "sort_order": 4,
+      "quality_score": 0.9,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "gym",
+        "people"
+      ],
+      "description": "The image displays a well-equipped luxury hotel gym featuring a variety of modern Technogym cardio machines, including treadmills, ellipticals, and stationary bikes. The space is designed with warm wooden beams and wall panels, complemented by light wooden flooring and large mirrors that create a sense of spaciousness. Elegant wall sconces provide ambient lighting, enhancing the sophisticated atmosphere of the fitness area. A reflection of a person is visible in one of the mirrors on the left.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "bbb7b1e4-3aa0-457c-a876-e64d9464ab57",
+      "file": "images/bbb7b1e4-3aa0-457c-a876-e64d9464ab57.jpg",
+      "sort_order": 5,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "restaurant",
+        "ambiance"
+      ],
+      "description": "A close-up shot of an elegantly set dining table in a luxurious restaurant. The table features a pristine white napkin, silverware, a decorative plate, and a vase of white roses, with wine glasses reflecting the surroundings. Plush green velvet banquette seating is visible, complementing the striking black and green Chinoiserie wallpaper that adorns the walls. A decorative white lamp with a black shade sits on a small side table, adding to the sophisticated ambiance.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "54ab4847-1bb2-436e-aa16-9ca7d9bb889b",
+      "file": "images/54ab4847-1bb2-436e-aa16-9ca7d9bb889b.jpg",
+      "sort_order": 6,
+      "quality_score": 0.95,
+      "appeal_score": 0.95,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "suite",
+        "ambiance",
+        "room_view"
+      ],
+      "description": "A luxurious and elegantly styled living space features a deep purple velvet sofa with white piping, a black and white geometric patterned rug, and dark wooden built-in cabinetry. Tall windows with patterned drapes allow natural light into the room, which is adorned with sophisticated lamps, artwork, and fresh flowers. A large arched mirror on the right wall reflects the room, enhancing the sense of space and refined ambiance.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "2dfa68e1-197e-4a7a-8653-35cb706efd05",
+      "file": "images/2dfa68e1-197e-4a7a-8653-35cb706efd05.jpg",
+      "sort_order": 7,
+      "quality_score": 1.0,
+      "appeal_score": 1.0,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room",
+        "ambiance",
+        "room_view"
+      ],
+      "description": "A luxurious and elegantly decorated guest room is depicted, featuring a large bed with crisp white linens and a patterned throw blanket. The room is adorned with light grey paneled walls and stylish bedside tables, each holding a lamp and decorative items, including a vase of white flowers. A window with patterned curtains and sheer drapes allows natural light into the room, beside which sits a small seating area with two upholstered chairs and a round table. A large mirror on the left wall reflects a portion of the room, enhancing the sense of space and light.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "090af566-572f-47d0-b1c9-54ad8fd719e0",
+      "file": "images/090af566-572f-47d0-b1c9-54ad8fd719e0.jpg",
+      "sort_order": 8,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "suite",
+        "bar",
+        "room_view"
+      ],
+      "description": "A luxurious hotel suite is depicted, featuring a four-poster bed with crisp white linens and a patterned throw. In the foreground, a dark wood desk with a glass top holds a vase of pink and white flowers, accompanied by a purple velvet chair. An integrated bar area with white cabinetry, a black countertop, and an ornate gold and black artwork is visible through an archway. The room is elegantly appointed with white wall paneling and a deep purple carpet, with a window visible on the far left.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "8fdfbae9-ede0-423b-bd2b-f4367a6b9866",
+      "file": "images/8fdfbae9-ede0-423b-bd2b-f4367a6b9866.jpg",
+      "sort_order": 9,
+      "quality_score": 0.9,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "ambiance",
+        "lobby",
+        "detail"
+      ],
+      "description": "A well-lit hotel corridor features a striking black and white checkered floor and a glass wall with striped blinds on one side, looking out onto greenery. The opposite wall is adorned with cream-colored paneling, elegant sconce lighting, and two large, abstract sculptures on wooden pedestals. Further down the hallway, a table with a vase of red roses is visible, along with a sign indicating directions to a restaurant and bar. The space exudes a sophisticated and artfully decorated atmosphere.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "588356e1-b9d9-4145-9bd4-9edff63fa8f0",
+      "file": "images/588356e1-b9d9-4145-9bd4-9edff63fa8f0.jpg",
+      "sort_order": 10,
+      "quality_score": 1.0,
+      "appeal_score": 1.0,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "restaurant",
+        "ambiance",
+        "bar"
+      ],
+      "description": "This image captures a luxurious restaurant interior featuring a distinctive black and white checkered floor and elegant green velvet seating. A large central table adorned with white orchids and a collection of art books serves as a prominent decorative element. The space is brightly lit by natural light filtering through a glass ceiling with retractable bamboo shades. Through an archway in the background, a sophisticated bar area is visible.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "4a495228-4754-47cb-8412-4c988f08245c",
+      "file": "images/4a495228-4754-47cb-8412-4c988f08245c.jpg",
+      "sort_order": 11,
+      "quality_score": 1.0,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "lobby",
+        "ambiance"
+      ],
+      "description": "An elegant interior shot showcases a grand curved staircase with a black wrought-iron railing and stone steps. The white walls feature classic paneling and several unique porthole-style windows with starburst patterns. A rich leather armchair with a plaid throw and a small side table are positioned at the base of the stairs, on a light-colored tiled floor with black diamond accents. A subtle sign on the wall indicates directions to 'CHAMBRES 1 A 20'.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "1362c8e5-a70d-444f-a016-e2291ac5cf24",
+      "file": "images/1362c8e5-a70d-444f-a016-e2291ac5cf24.jpg",
+      "sort_order": 12,
+      "quality_score": 1.0,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "lounge",
+        "ambiance"
+      ],
+      "description": "A long, luxuriously appointed room, likely a hotel lounge or study, is depicted with rich, textured wallpaper and dark wood accents. Multiple desks with leather chairs are arranged throughout the space, which is illuminated by recessed ceiling lights and task lamps. Bookshelves filled with books and decorative items line the walls, complemented by various artworks and a prominent sculptural element. An orange and blue patterned rug runs down the center, enhancing the sophisticated and inviting ambiance.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "910fc1ca-7c5e-489b-90f6-0ee1477efc2c",
+      "file": "images/910fc1ca-7c5e-489b-90f6-0ee1477efc2c.jpg",
+      "sort_order": 13,
+      "quality_score": 0.98,
+      "appeal_score": 0.97,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room",
+        "ambiance",
+        "room_view"
+      ],
+      "description": "This image captures a bright, minimalist guest room featuring a vaulted ceiling and white walls. A large bed with crisp white linens and monogrammed pillows is centered, flanked by modern tiered bedside tables with sculptural lamps. A patterned bench sits at the foot of the bed, and a light-colored armchair is positioned to the right. A window with flowing light curtains is visible on the left, contributing to the serene atmosphere.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "3cb8a735-5827-4b6f-b4b1-9ca9fc3ae038",
+      "file": "images/3cb8a735-5827-4b6f-b4b1-9ca9fc3ae038.jpg",
+      "sort_order": 14,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "suite",
+        "room_view",
+        "bathroom"
+      ],
+      "description": "This image captures a bright and elegantly furnished luxury suite. A large bed with crisp white linens and a patterned throw blanket occupies the right side of the frame, with a matching upholstered bench at its foot. To the left, a wooden desk with a white chair is positioned beneath an abstract artwork, illuminated by a wall-mounted light fixture. Natural light enters through a dark-framed window with light curtains and a skylight, while a partially open door reveals a glimpse into an adjacent bathroom with striped glass panels.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "bb3d2fe6-77ee-4250-958a-2e7940c2330f",
+      "file": "images/bb3d2fe6-77ee-4250-958a-2e7940c2330f.jpg",
+      "sort_order": 15,
+      "quality_score": 1.0,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "pool_indoor",
+        "ambiance",
+        "spa",
+        "drinks"
+      ],
+      "description": "A tranquil indoor swimming pool is illuminated by soft, ambient lighting, reflecting off the water and the polished surfaces of the surrounding decor. Several striped lounge chairs with rolled white towels are neatly arranged along the poolside, each accompanied by a small marble-topped side table. One table holds a glass with a red drink, enhancing the serene and luxurious spa-like atmosphere of the modern space.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "297d7c0b-e3e3-450c-ae77-67ed03277a9c",
+      "file": "images/297d7c0b-e3e3-450c-ae77-67ed03277a9c.jpg",
+      "sort_order": 16,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "suite",
+        "ambiance",
+        "room_view"
+      ],
+      "description": "This image depicts a luxurious hotel suite or guest room, showcasing elegant decor and furnishings. A dark wood desk with a black chair and a white upholstered armchair are positioned beneath a large mirror, which reflects an artwork. On the right, two beds with crisp white linens are visible next to a window adorned with patterned curtains. The room features classic white wainscoting, a dark purple carpet, and fresh floral arrangements, contributing to an aspirational and refined atmosphere.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "7921809d-4b8e-4a1f-b4ce-d356e2dfc555",
+      "file": "images/7921809d-4b8e-4a1f-b4ce-d356e2dfc555.jpg",
+      "sort_order": 17,
+      "quality_score": 1.0,
+      "appeal_score": 1.0,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "suite",
+        "ambiance"
+      ],
+      "description": "A luxurious four-poster bed with a dark wooden frame and white drapes is the central focus of this elegant guest room. The bed is impeccably made with crisp white linens, featuring two pillows embroidered with blue 'J.K.' initials and a folded blue and white patterned throw. Elegant bedside tables flank the bed, each holding a stylish lamp, with reflections of the room's interior and a window with patterned curtains visible in the tall mirrors integrated into the bed frame.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "758d28eb-29bd-468e-91f7-70cf408cb34c",
+      "file": "images/758d28eb-29bd-468e-91f7-70cf408cb34c.jpg",
+      "sort_order": 18,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "bar",
+        "lounge",
+        "ambiance",
+        "people"
+      ],
+      "description": "This image showcases a sophisticated hotel bar and lounge area. The bar features a marble counter with illuminated wooden paneling, stocked with various spirits and glassware, and is fronted by several black leather bar stools. Adjacent to the bar is a comfortable lounge space with a long, plush banquette sofa, small round tables, and elegant chairs, all set on a dark herringbone-patterned floor. The room is adorned with a coffered ceiling, textured wall coverings, and subtle artwork, creating an inviting and luxurious ambiance.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "fa772129-e4b1-4122-85b9-b6ed1d3e0d45",
+      "file": "images/fa772129-e4b1-4122-85b9-b6ed1d3e0d45.jpg",
+      "sort_order": 19,
+      "quality_score": 1.0,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "bathroom"
+      ],
+      "description": "This image showcases a luxurious double vanity in a hotel bathroom, framed by elegant white paneled doors. The vanity features a dark countertop with two sinks, polished chrome fixtures, and a large, multi-paneled mirror reflecting the room. Two white towels, monogrammed with 'J' and 'K', hang neatly from the vanity's drawers, which are finished in a light, textured material.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "eea97d92-109b-42e3-acab-098702efac92",
+      "file": "images/eea97d92-109b-42e3-acab-098702efac92.jpg",
+      "sort_order": 20,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "restaurant",
+        "ambiance",
+        "garden"
+      ],
+      "description": "This image showcases an elegant restaurant space featuring a striking black and white checkered floor and a glass ceiling with retractable woven blinds. Plush green velvet banquettes and chairs are arranged around dark-topped tables, which are meticulously set with white linens, glassware, and fresh white roses. Large windows along one side offer a view into a lush, manicured garden, enhancing the bright and sophisticated atmosphere of the dining area.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "f9ea6b10-b230-4f48-9f75-c564cd158d03",
+      "file": "images/f9ea6b10-b230-4f48-9f75-c564cd158d03.jpg",
+      "sort_order": 21,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "bathroom"
+      ],
+      "description": "A luxurious and spacious bathroom features a large, modern glass and polished chrome shower enclosure as its central element. Two elegant vanity units with dark countertops and distinctive textured, golden-hued drawer fronts flank the shower. The room is adorned with classic white wall paneling, dark herringbone flooring, and rich gold curtains, reflecting a sophisticated design.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "bc6decb3-97cc-4d8c-8822-e9ca40171397",
+      "file": "images/bc6decb3-97cc-4d8c-8822-e9ca40171397.jpg",
+      "sort_order": 22,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room",
+        "ambiance"
+      ],
+      "description": "This image showcases a luxurious guest room, focusing on a king-sized bed dressed in crisp white linens. Two pillows, each embroidered with 'J.K.', are prominently featured, along with a folded grey throw blanket. Behind the bed, a striking bronze-toned paneled headboard creates a sophisticated backdrop, complemented by two elegant bedside lamps with cream shades.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "b5aff756-2e83-4da2-805e-50583eb8a168",
+      "file": "images/b5aff756-2e83-4da2-805e-50583eb8a168.jpg",
+      "sort_order": 23,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "treatment_room"
+      ],
+      "description": "This image captures a serene and luxurious spa treatment room. In the foreground, a neatly prepared treatment bed with white towels is visible. Beyond, a modern vanity area features a white vessel sink with elegant gold-toned fixtures, set against a dark, textured cabinet and countertop. Sliding wooden slatted doors frame the vanity, which is adorned with a white orchid plant and various toiletries.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "8485a481-0faa-47ff-b471-fb1c0a8f7e02",
+      "file": "images/8485a481-0faa-47ff-b471-fb1c0a8f7e02.jpg",
+      "sort_order": 24,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "suite",
+        "room_view"
+      ],
+      "description": "This image captures a bright and elegantly designed suite, featuring a prominent four-poster bed with white linens. The room boasts exposed wooden ceiling beams, light hardwood flooring, and crisp white walls. Furnishings include a wall-mounted television above a rustic wooden console, a small desk with a dark chair, and a window dressed with light-colored drapes. Two doorways are visible, one leading to a dark-tiled space and another to an adjacent room.",
+      "width": null,
+      "height": null
+    }
+  ]
+}

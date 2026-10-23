@@ -1,0 +1,439 @@
+{
+  "id": "8f71c94c-5a43-4f9d-ba32-34d3cd356acf",
+  "name": "The Peninsula Paris",
+  "address": "The Peninsula Paris, 75116 Paris, France",
+  "location": "Paris, France",
+  "city": "Paris",
+  "country": "FR",
+  "latitude": 48.87106,
+  "longitude": 2.293354,
+  "website": "http://paris.peninsula.com",
+  "description": "The Peninsula Paris is a Peninsula Hotels property on Avenue Kléber in the 16th arrondissement, occupying a Haussmann-era building once home to the original Hotel Majestic.\nThe hotel has 200 rooms and suites, an indoor pool, a spa, parking, and a fleet of Mini Coopers and BMWs available to borrow.\nL'Oiseau Blanc holds a Michelin star and features a full-scale replica of the 1927 transatlantic biplane on its rooftop terrace, with Le Bar Kléber and Le Lobby anchoring the dining lineup; George Gershwin wrote An American in Paris while staying in the building in 1928.",
+  "image_count": 25,
+  "images": [
+    {
+      "id": "fe6b9c9f-8a53-4167-be88-b3ded1df3908",
+      "file": "images/fe6b9c9f-8a53-4167-be88-b3ded1df3908.jpg",
+      "sort_order": 0,
+      "quality_score": 0.9,
+      "appeal_score": 0.8,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "suite",
+        "room_view",
+        "detail"
+      ],
+      "description": "This image captures a luxurious hotel suite bedroom, featuring a large bed with crisp white linens centered against a distinctive headboard with geometric relief patterns. Dark wood nightstands flank the bed, each holding a lamp and a digital clock. A window with drapes is visible on the left, while a dark wood wardrobe or door stands on the right. In the foreground, a desk is adorned with a decorative tea set, adding a touch of elegance to the room.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "002f4023-7f70-492f-840e-b2d5e050e74c",
+      "file": "images/002f4023-7f70-492f-840e-b2d5e050e74c.jpg",
+      "sort_order": 1,
+      "quality_score": 0.95,
+      "appeal_score": 0.98,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "terrace",
+        "view",
+        "drinks",
+        "ambiance"
+      ],
+      "description": "The image captures a luxurious rooftop terrace at dusk, featuring comfortable outdoor seating arrangements with plush cushions and decorative pillows. A low table in the center holds an elegant display of cocktails, olives, and white floral arrangements, illuminated by several lanterns and ambient lighting. In the background, the iconic Eiffel Tower is visible, along with the illuminated Parisian skyline, creating a sophisticated and aspirational atmosphere.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "4688313a-3017-4fc0-a5d6-4cfff676c3e2",
+      "file": "images/4688313a-3017-4fc0-a5d6-4cfff676c3e2.jpg",
+      "sort_order": 2,
+      "quality_score": 1.0,
+      "appeal_score": 1.0,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "pool_indoor",
+        "ambiance",
+        "spa"
+      ],
+      "description": "A luxurious indoor swimming pool is depicted, featuring a long, rectangular pool with shimmering blue mosaic tiles. Elegant curved lighting illuminates the ceiling, while accent lights highlight the textured walls and columns. Several white lounge chairs are arranged along the pool deck, complemented by large potted plants in decorative blue and white ceramic pots, creating a serene and inviting atmosphere.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "d72fa919-b042-4398-b115-5c495afc0b26",
+      "file": "images/d72fa919-b042-4398-b115-5c495afc0b26.jpg",
+      "sort_order": 3,
+      "quality_score": 1.0,
+      "appeal_score": 1.0,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "lobby",
+        "ambiance",
+        "people",
+        "entrance"
+      ],
+      "description": "A grand hotel lobby features a long, dark reception desk with gold accents. The space is adorned with ornate white architectural details on the walls and ceiling, from which numerous delicate, white, leaf-like sculptures are suspended, creating a striking visual effect. Two hotel staff members are visible: one behind the reception desk and another in a white uniform opening a glass door on the left. Large silver urns filled with white floral arrangements flank the reception area, enhancing the luxurious ambiance.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "f395112a-c839-4968-b4c1-d229787f3345",
+      "file": "images/f395112a-c839-4968-b4c1-d229787f3345.jpg",
+      "sort_order": 4,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "people",
+        "kids_facility",
+        "terrace",
+        "event_space",
+        "food",
+        "drinks",
+        "view"
+      ],
+      "description": "A vibrant outdoor children's event is taking place on a spacious terrace under a partly cloudy sky. Hotel staff, dressed in white uniforms, are seen serving ice cream from a cart and cotton candy to several children. The festive setup includes a table laden with desserts, colorful balloons, and a wagon filled with teddy bears, all set against the backdrop of the Eiffel Tower.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "75046ada-5387-40c3-ac40-f93f8241f0ba",
+      "file": "images/75046ada-5387-40c3-ac40-f93f8241f0ba.jpg",
+      "sort_order": 5,
+      "quality_score": 0.95,
+      "appeal_score": 0.85,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "ambiance",
+        "exterior",
+        "detail"
+      ],
+      "description": "An upward-looking view captures a unique architectural courtyard, where a white model biplane is suspended against a partly cloudy sky. Below, a modern structure features a large, spherical reflective mirror encircled by a vibrant rainbow-colored ring, reflecting the surrounding building facades. The surrounding multi-story buildings display white and grey exteriors with numerous windows and subtle blue decorative patterns. This artistic installation creates a distinctive and whimsical atmosphere within the space.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "81ee7a7a-d5db-4905-9db9-899e87b81f84",
+      "file": "images/81ee7a7a-d5db-4905-9db9-899e87b81f84.jpg",
+      "sort_order": 6,
+      "quality_score": 1.0,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "bathroom",
+        "room_view"
+      ],
+      "description": "A luxurious bathroom features a large, oval black marble bathtub centered beneath a window. Flanking the tub are two black marble vanities with white sinks, each with a mirror, wall sconces, and fresh white roses. The room is adorned with elegant white and black marble walls and floors, creating a sophisticated and symmetrical design. Through the window, a classic building facade with balconies and rooftop greenery is visible.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "bd4e3f7f-0ce1-4b93-8ea0-8014eceb46be",
+      "file": "images/bd4e3f7f-0ce1-4b93-8ea0-8014eceb46be.jpg",
+      "sort_order": 7,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "suite",
+        "room_view",
+        "food",
+        "detail"
+      ],
+      "description": "A luxurious hotel suite living area features a white sofa with dark pillows, a grey armchair, and a round glass coffee table. On the table, a bouquet of white roses and a small dessert are elegantly arranged. A dark wooden desk with a lamp and chair is positioned by a window, offering a glimpse of classic building facades outside. The room is adorned with contemporary artwork and rich wooden accents, creating a sophisticated atmosphere.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "e2564534-48c9-44b7-b4dd-1b6e36bea65d",
+      "file": "images/e2564534-48c9-44b7-b4dd-1b6e36bea65d.jpg",
+      "sort_order": 8,
+      "quality_score": 0.95,
+      "appeal_score": 0.85,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "gym"
+      ],
+      "description": "The image depicts a modern and well-maintained hotel gym, equipped with a variety of strength training machines. The room features light wood paneling on the walls, complemented by large mirrors that reflect the bright, recessed ceiling lights. The floor is covered with grey interlocking gym mats, providing a clean and functional environment for exercise.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "425e3a3f-17c9-4abf-b04b-225972f6be69",
+      "file": "images/425e3a3f-17c9-4abf-b04b-225972f6be69.jpg",
+      "sort_order": 9,
+      "quality_score": 1.0,
+      "appeal_score": 1.0,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "suite",
+        "bathroom"
+      ],
+      "description": "This image captures a luxurious dressing area within a hotel suite, featuring rich dark wood cabinetry and a plush grey carpet with a white border. To the left, an open wardrobe section displays a suit jacket and a brown leather bag on a built-in bench. On the right, a sleek vanity table with a mirror, a small upholstered bench, and a telephone is visible. In the center, frosted sliding doors open to reveal a lavish bathroom with a marble-clad bathtub and walls.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "d94b5c70-ab70-495d-9587-26a244b73241",
+      "file": "images/d94b5c70-ab70-495d-9587-26a244b73241.jpg",
+      "sort_order": 10,
+      "quality_score": 0.95,
+      "appeal_score": 0.95,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "spa",
+        "amenity",
+        "ambiance"
+      ],
+      "description": "A luxurious spa area features a modern, rectangular hydrotherapy tub with vibrant blue interior lighting. Warm cove lighting illuminates the ceiling and tiled walls, creating a serene atmosphere. A potted plant and decorative candle holders adorn the marble countertop beside the tub, enhancing the tranquil ambiance of the space.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "45a69671-187f-48da-9d11-9744ac930dac",
+      "file": "images/45a69671-187f-48da-9d11-9744ac930dac.jpg",
+      "sort_order": 11,
+      "quality_score": 0.95,
+      "appeal_score": 0.98,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "terrace",
+        "view",
+        "restaurant",
+        "lounge",
+        "people"
+      ],
+      "description": "An expansive rooftop terrace offers a panoramic view of the Parisian skyline, prominently featuring the Eiffel Tower in the distance. The terrace is furnished with multiple elegant outdoor lounge and dining sets, featuring dark wicker and light grey cushions, interspersed with lush green plants and flowering bushes. Several staff members in white uniforms are visible, attending to the setup of the space under a clear blue sky.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "082eb56f-1aa8-4475-8124-ff369c53865f",
+      "file": "images/082eb56f-1aa8-4475-8124-ff369c53865f.jpg",
+      "sort_order": 12,
+      "quality_score": 0.95,
+      "appeal_score": 0.95,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "ambiance",
+        "lounge",
+        "bar"
+      ],
+      "description": "The image showcases a lavish hotel lounge and bar area, characterized by rich dark wood paneling adorned with intricate gold detailing. Plush seating includes a velvet sofa with decorative pillows, teal leather armchairs, and brown leather bar stools around a marble-topped counter. The space is illuminated by soft lighting from lamps and features a large green plant, contributing to an opulent and inviting ambiance.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "d89564c9-3c54-4c89-ad2c-06a6e6c23124",
+      "file": "images/d89564c9-3c54-4c89-ad2c-06a6e6c23124.jpg",
+      "sort_order": 13,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": false,
+      "usability_issues": [
+        "logo"
+      ],
+      "subjects": [
+        "kids_facility",
+        "people"
+      ],
+      "description": "The image captures a lively indoor kids' facility, brightly decorated with numerous colorful balloons. Several children are seen playing on soft, multi-colored floor mats and seating, engaging with various toys and each other. Two uniformed staff members are actively supervising and interacting with the children, creating a fun and engaging atmosphere.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "d9c8bb8d-ba60-4950-a56c-91b3c750fe57",
+      "file": "images/d9c8bb8d-ba60-4950-a56c-91b3c750fe57.jpg",
+      "sort_order": 14,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "suite",
+        "detail",
+        "room_view"
+      ],
+      "description": "This image showcases a luxurious dressing area within a hotel suite, featuring rich dark wood paneling and a plush grey carpet. A sleek vanity with a mirrored wall, elegant pendant lights, and a small floral arrangement is visible on the left. To the right, an open wardrobe displays neatly hung clothing, shoes, and a designer handbag, while a window with light-colored drapes offers a glimpse of the exterior.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "26061027-e7be-4a7f-acc0-fca14bdeb11c",
+      "file": "images/26061027-e7be-4a7f-acc0-fca14bdeb11c.jpg",
+      "sort_order": 15,
+      "quality_score": 0.95,
+      "appeal_score": 0.85,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "suite",
+        "detail",
+        "room_view"
+      ],
+      "description": "This image showcases a luxurious pet-friendly setup within a hotel suite. Two Cavalier King Charles Spaniels are featured on a chaise lounge, one resting in a plush purple pet bed. On the dark wood floor, branded pet mats are laid out with elegant food and water bowls, bottled water, and various pet toys. A large arched window in the background offers a glimpse of an exterior building with green foliage.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "25e3936a-9d35-4085-9cbb-5fa8dabb89bc",
+      "file": "images/25e3936a-9d35-4085-9cbb-5fa8dabb89bc.jpg",
+      "sort_order": 16,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "suite",
+        "room_view"
+      ],
+      "description": "A luxurious hotel suite is depicted, featuring a king-sized bed with crisp white linens and a grey throw, flanked by dark wood nightstands with modern lamps. The bed is set against a striking headboard with geometric patterns in a neutral tone, framed by dark wood. A large window, partially covered by light drapes, offers a glimpse of a classic European building exterior and some greenery. The room is elegantly furnished with a padded bench at the foot of the bed and a patterned rug, exuding a sophisticated ambiance.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "c29856d6-2fef-453a-9a7e-54c1674428f1",
+      "file": "images/c29856d6-2fef-453a-9a7e-54c1674428f1.jpg",
+      "sort_order": 17,
+      "quality_score": 0.95,
+      "appeal_score": 0.95,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "ambiance",
+        "restaurant"
+      ],
+      "description": "This image captures the opulent interior of a luxury restaurant, characterized by its rich, dark wood paneling and vibrant red drapes. A grand, circular ceiling feature with intricate gold patterns and a central chandelier dominates the overhead space. Elegant dining tables, set with white tablecloths and blue underlays, are surrounded by upholstered chairs, while decorative white pillars with carved motifs add to the sophisticated ambiance.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "a544a839-3b03-4fd8-9a50-a836fbe7f27e",
+      "file": "images/a544a839-3b03-4fd8-9a50-a836fbe7f27e.jpg",
+      "sort_order": 18,
+      "quality_score": 0.9,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "bathroom"
+      ],
+      "description": "A luxurious hotel bathroom is depicted, featuring a prominent black oval bathtub centered against white marble walls. The room boasts dual black vanity units with white sinks, each accompanied by a mirror and elegant wall sconces. The floor is adorned with white marble, accented by black linear patterns, and fresh white towels are neatly arranged on towel rings and draped over the tub.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "c194f9dc-4c8e-4f50-90a3-5de712f303fc",
+      "file": "images/c194f9dc-4c8e-4f50-90a3-5de712f303fc.jpg",
+      "sort_order": 19,
+      "quality_score": 1.0,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "lounge",
+        "ambiance"
+      ],
+      "description": "The image captures a luxurious and elegantly styled lounge area, framed by partially open doors featuring ornate crystal handles. A dark tufted leather sofa with decorative cushions is centered against a wall with tall windows, softly illuminated by sheer and heavier drapes. A round glass-top coffee table with a gold geometric base sits on a dark woven rug, flanked by two mirrored side tables topped with crystal candelabra lamps. The overall scene exudes a sophisticated and inviting ambiance.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "dc35ba55-f893-4331-8476-b8c9b7526d37",
+      "file": "images/dc35ba55-f893-4331-8476-b8c9b7526d37.jpg",
+      "sort_order": 20,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room",
+        "ambiance",
+        "room_view"
+      ],
+      "description": "This image showcases a luxurious guest room with a large bed featuring white and grey striped bedding and matching pillows. A stylish chaise lounge with a dark cushion is positioned by a tall arched window, which offers a view of classic European-style buildings across the street. The room is elegantly decorated with a geometric headboard, a modern bedside lamp, and subtle cove lighting, creating a sophisticated ambiance.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "4695a756-7c3b-4be8-b0b8-f115054ef95a",
+      "file": "images/4695a756-7c3b-4be8-b0b8-f115054ef95a.jpg",
+      "sort_order": 21,
+      "quality_score": 0.95,
+      "appeal_score": 0.95,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "exterior",
+        "ambiance",
+        "entrance"
+      ],
+      "description": "An elegant, multi-story luxury hotel building is depicted at dusk or night. Its classical stone facade is brightly illuminated by warm lights, highlighting numerous windows and intricate architectural details. A distinctive mansard roof crowns the structure, and a modern glass canopy marks the main entrance. Lush green trees partially obscure the lower part of the building, set against a deep blue twilight sky.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "e7ebc443-0ea5-4f73-b241-104d8ff823de",
+      "file": "images/e7ebc443-0ea5-4f73-b241-104d8ff823de.jpg",
+      "sort_order": 22,
+      "quality_score": 0.95,
+      "appeal_score": 0.85,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "suite",
+        "food"
+      ],
+      "description": "The image displays a well-appointed living area within a luxury suite. A cream-colored sofa with dark and light cushions is flanked by two dark upholstered armchairs, all arranged around a round glass coffee table. On the table, a selection of pastries and a vase of white roses are presented, while abstract artwork adorns the wall above the sofa.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "79fd2658-dac8-4749-9b09-e31788659b4c",
+      "file": "images/79fd2658-dac8-4749-9b09-e31788659b4c.jpg",
+      "sort_order": 23,
+      "quality_score": 0.9,
+      "appeal_score": 0.85,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "suite",
+        "ambiance"
+      ],
+      "description": "This image depicts a well-appointed suite interior, featuring a dedicated work area with a dark wood desk and chair on the left. To the right, a comfortable white sofa with throw pillows is arranged around a modern oval coffee table, topped with a fruit bowl and a vase of white roses. The room is elegantly lit with recessed ceiling lights and a tall floor lamp, showcasing a contemporary artwork on the wall and built-in cabinetry.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "4c61668d-e9c6-428f-8283-203e94909434",
+      "file": "images/4c61668d-e9c6-428f-8283-203e94909434.jpg",
+      "sort_order": 24,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "entrance",
+        "people",
+        "ambiance"
+      ],
+      "description": "A grand hotel entrance features a uniformed doorman standing by a revolving glass door with polished brass frames. Intricate, leaf-like glass art pieces are suspended from the high, ornate ceiling, creating a luxurious ambiance. In the background, a large white floral arrangement in a silver urn adds to the elegant decor. The polished marble floors reflect the bright, inviting light of the space.",
+      "width": null,
+      "height": null
+    }
+  ]
+}

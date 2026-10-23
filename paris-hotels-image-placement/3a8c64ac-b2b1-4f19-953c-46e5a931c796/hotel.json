@@ -1,0 +1,434 @@
+{
+  "id": "3a8c64ac-b2b1-4f19-953c-46e5a931c796",
+  "name": "Hôtel des Grands Boulevards",
+  "address": "17 Bd Poissonnière, 75002 Paris, France",
+  "location": "Paris, France",
+  "city": "Paris",
+  "country": "FR",
+  "latitude": 48.87143051588721,
+  "longitude": 2.3451148306810325,
+  "website": "https://www.hoteldesgrandsboulevards.com/",
+  "description": "Hotel des Grands Boulevards is an Experimental Group property in Paris's 2nd arrondissement, set in a historic building reinterpreted by designer Dorothée Meilichzon.\nThe hotel has 50 bedrooms, a restaurant, and a rooftop terrace, with interiors that nod to Louis XVI romanticism without leaning on cliché.\nDining centres on the in-house restaurant and rooftop bar, both designed by Meilichzon as part of the building's full interior scheme.",
+  "image_count": 25,
+  "images": [
+    {
+      "id": "f974f663-3fcb-4555-b07f-2854d0693c60",
+      "file": "images/f974f663-3fcb-4555-b07f-2854d0693c60.jpg",
+      "sort_order": 0,
+      "quality_score": 0.9,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "bar",
+        "lounge",
+        "people"
+      ],
+      "description": "A bright and airy lounge space features a prominent circular bar with a light marble countertop and a dark wood base adorned with a diamond pattern. The bar is surrounded by elegant wooden stools with red leather seats and topped with a black metal framework from which greenery and pendant lights hang. The space is illuminated by abundant natural light filtering through a large glass ceiling, offering glimpses of surrounding building facades. Several guests are visible seated at tables in the background, enjoying the sophisticated atmosphere.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "65aa5ade-65cd-4473-bf62-44189a64cad3",
+      "file": "images/65aa5ade-65cd-4473-bf62-44189a64cad3.jpg",
+      "sort_order": 1,
+      "quality_score": 0.95,
+      "appeal_score": 0.85,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "terrace",
+        "bar",
+        "people",
+        "drinks"
+      ],
+      "description": "This image captures a lively rooftop terrace bar, featuring a white counter where a bartender prepares drinks. Several guests are visible, some seated at a table and others standing, enjoying the outdoor setting. The terrace is decorated with lush potted plants and climbing greenery, enclosed by a black metal railing. In the background, classic urban buildings with distinctive rooftops and chimneys are visible under a bright sky.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "b7680531-b1ac-4bf3-b73b-2d06aa41cb35",
+      "file": "images/b7680531-b1ac-4bf3-b73b-2d06aa41cb35.jpg",
+      "sort_order": 2,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "bar",
+        "ambiance",
+        "drinks"
+      ],
+      "description": "The image showcases a luxurious bar area with a prominent, curved brass counter. Behind it, a mirrored back bar is fully stocked with a wide array of spirits and glassware. Numerous spherical, illuminated light fixtures hang from the ceiling, casting a warm glow and enhancing the sophisticated ambiance of the space, which features deep red walls.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "02288b96-b772-47a8-b41f-3aa136d9e491",
+      "file": "images/02288b96-b772-47a8-b41f-3aa136d9e491.jpg",
+      "sort_order": 3,
+      "quality_score": 0.9,
+      "appeal_score": 0.8,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "terrace",
+        "view"
+      ],
+      "description": "A bright outdoor terrace features a red cushioned L-shaped sofa and several small round tables with dark green chairs. A potted tree stands in the foreground, with climbing plants on a dark trellis providing privacy. Beyond the terrace, a classic European cityscape of grey zinc rooftops and dormer windows is visible under a partly cloudy sky. The space is well-maintained and offers an inviting outdoor seating area.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "0920851d-e5de-4b24-997c-3554ec3f4c09",
+      "file": "images/0920851d-e5de-4b24-997c-3554ec3f4c09.jpg",
+      "sort_order": 4,
+      "quality_score": 0.95,
+      "appeal_score": 0.85,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room",
+        "room_view"
+      ],
+      "description": "The image displays a well-appointed guest room featuring a large bed with a wooden headboard and light green canopy drapes. To the right, a window with matching drapes overlooks a small balcony with an ornate railing. The room is furnished with a small patterned sofa, two black armchairs, a round side table, and a modern floor lamp, all set on a geometric patterned carpet. An arched mirror and dark accent wall add to the contemporary decor.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "c8216858-b4e3-4c58-89fa-92bcc442d245",
+      "file": "images/c8216858-b4e3-4c58-89fa-92bcc442d245.jpg",
+      "sort_order": 5,
+      "quality_score": 0.98,
+      "appeal_score": 0.97,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room",
+        "detail",
+        "ambiance"
+      ],
+      "description": "The image captures a stylish bedside area within a guest room, featuring a deep navy blue wall as a backdrop. A rustic wooden stool holds a white textured vase filled with dried eucalyptus and wheat, positioned beneath a modern brass wall sconce and matching light switches. To the right, crisp white bed linen and a soft teal curtain frame the edge of the bed, contributing to a sophisticated and inviting ambiance.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "f2ae31a6-74a7-4ebd-b6b5-318e1ebaa367",
+      "file": "images/f2ae31a6-74a7-4ebd-b6b5-318e1ebaa367.jpg",
+      "sort_order": 6,
+      "quality_score": 0.9,
+      "appeal_score": 0.8,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "terrace",
+        "garden",
+        "exterior",
+        "restaurant",
+        "people"
+      ],
+      "description": "This image provides an aerial view of a hotel's inner courtyard, featuring a paved terrace with several small white tables and green chairs. Abundant potted plants and trees are strategically placed on the ground level and on the balconies of the surrounding white buildings. A prominent multi-paneled glass structure, likely a roof or wall, reflects the interior of what appears to be a restaurant or cafe, with faint figures of people visible inside. The scene combines elegant architecture with lush greenery, creating an inviting outdoor space.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "75591226-7fb1-4d98-86ec-42bb63a832e4",
+      "file": "images/75591226-7fb1-4d98-86ec-42bb63a832e4.jpg",
+      "sort_order": 7,
+      "quality_score": 0.9,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "ambiance",
+        "lounge",
+        "detail",
+        "room_view"
+      ],
+      "description": "A stylish seating area features two dark upholstered armchairs with black frames, positioned on a patterned grey carpet. Between the chairs, a modern brass floor lamp with two spherical lights illuminates a small wooden side table holding a vase of dried white flowers and a book. The background wall boasts a textured, dark blue-grey finish, and a window with light teal curtains is partially visible on the left.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "e8a06de1-37c6-4317-a56b-419c638181af",
+      "file": "images/e8a06de1-37c6-4317-a56b-419c638181af.jpg",
+      "sort_order": 8,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "ambiance",
+        "guest_room"
+      ],
+      "description": "A stylish guest room features a bed with crisp white linens and pillows. Above the bed, a unique arched teal fabric canopy frames a terracotta-colored headboard against a dark navy wall. Rustic wooden side tables flank the bed, one holding a white vase with dried foliage and the other a vintage-style telephone. The room's design incorporates a striking color palette and an angled ceiling, creating a distinctive and intimate atmosphere.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "943b773b-7a4c-4195-ae9e-a5294089f0d6",
+      "file": "images/943b773b-7a4c-4195-ae9e-a5294089f0d6.jpg",
+      "sort_order": 9,
+      "quality_score": 0.9,
+      "appeal_score": 0.8,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "exterior",
+        "garden"
+      ],
+      "description": "This image captures a clean and modern exterior view of a building's inner courtyard. Multiple windows and balconies are visible, adorned with lush green plants and colorful flowers in window boxes. One small balcony features a black metal railing and a compact table with two chairs, suggesting a private outdoor space. The architecture is characterized by white walls and dark-framed windows, with a grey paneled upper floor, creating a serene urban aesthetic.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "cd284ae0-f8e4-46cc-93d9-4d61e1e84336",
+      "file": "images/cd284ae0-f8e4-46cc-93d9-4d61e1e84336.jpg",
+      "sort_order": 10,
+      "quality_score": 0.9,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "bar",
+        "ambiance",
+        "people"
+      ],
+      "description": "A stylish bar counter with a polished marble top and dark wooden paneling is the focal point of this image. Above the counter, an elegant arched metal structure is adorned with lush green plants and holds an array of sparkling glassware. A coffee machine and other bar equipment are neatly arranged on the counter, while a staff member attends to a table to the right. The background reveals large windows and a glass ceiling, suggesting a bright, airy interior space.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "01d2e8ad-e8bf-4abb-acc3-dc56e1c3372e",
+      "file": "images/01d2e8ad-e8bf-4abb-acc3-dc56e1c3372e.jpg",
+      "sort_order": 11,
+      "quality_score": 0.9,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room",
+        "ambiance",
+        "room_view"
+      ],
+      "description": "A luxurious guest room features a bed with crisp white linens and pillows, framed by a dramatic arched green velvet canopy and a blush pink headboard. The room is characterized by dark, moody walls and warm, ambient lighting from wall sconces. A rustic wooden stool serves as a bedside table, holding a vase of dried flowers and a vintage telephone, while a skylight is visible on the sloped ceiling.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "0d1cdf37-8db4-4995-bf6a-85fd28f18fe4",
+      "file": "images/0d1cdf37-8db4-4995-bf6a-85fd28f18fe4.jpg",
+      "sort_order": 12,
+      "quality_score": 0.9,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room",
+        "ambiance"
+      ],
+      "description": "This image captures a close-up of a luxurious guest room bed, featuring a dark teal velvet headboard. A dramatic coral-colored fabric canopy drapes elegantly around the bed, creating a cozy and stylish ambiance. Rustic wooden bedside tables flank the bed, one adorned with a vase of dried flowers and a bottle with glasses, and the other holding a vintage cream rotary telephone, all illuminated by modern wall sconces.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "5f9d669d-c016-4f91-8b78-137b272ab7c9",
+      "file": "images/5f9d669d-c016-4f91-8b78-137b272ab7c9.jpg",
+      "sort_order": 13,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room",
+        "ambiance"
+      ],
+      "description": "The image displays a luxurious guest room, centered on a king-sized bed with crisp white linens. A dramatic peach-colored fabric canopy hangs above the bed, complementing the teal velvet headboard. Rustic wooden bedside tables with bottles and glasses flank the bed, illuminated by modern wall sconces. The room features a sophisticated color palette with white walls, a muted blue accent wall, and vibrant blue curtains.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "63f743ca-4a93-4986-9091-e5e8bf44b8e6",
+      "file": "images/63f743ca-4a93-4986-9091-e5e8bf44b8e6.jpg",
+      "sort_order": 14,
+      "quality_score": 0.95,
+      "appeal_score": 0.85,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room",
+        "bathroom",
+        "ambiance",
+        "room_view"
+      ],
+      "description": "The image depicts a stylish guest room featuring a bed with a distinctive pink velvet headboard and crisp white linens. Lush green velvet curtains frame a window on the left, while a small marble-topped desk with a coffee machine and a vintage telephone is positioned on the right. Through an open doorway, a bright bathroom with a white pedestal sink and patterned floor tiles is visible, contributing to the room's unique aesthetic.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "a832daba-5e6b-47f6-9ebb-19262db77d1d",
+      "file": "images/a832daba-5e6b-47f6-9ebb-19262db77d1d.jpg",
+      "sort_order": 15,
+      "quality_score": 0.9,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "restaurant",
+        "ambiance"
+      ],
+      "description": "This image captures an elegantly set restaurant space, featuring two round wooden tables with dark chairs and a plush red banquette. A tall green plant adds a natural element, while a distinctive shell-patterned wall provides a unique decorative backdrop. The area is brightly lit, suggesting natural light from large windows or glass doors, creating an inviting and sophisticated dining atmosphere.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "a5540323-4efc-4fb7-a541-100c396bb32f",
+      "file": "images/a5540323-4efc-4fb7-a541-100c396bb32f.jpg",
+      "sort_order": 16,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "bar",
+        "ambiance",
+        "drinks"
+      ],
+      "description": "A stylish bar features a curved, brushed brass counter with matching high stools. Behind the bar, shelves are stocked with numerous bottles, illuminated by a striking array of spherical globe lights suspended from the ceiling. The space is characterized by rich red walls and warm, inviting lighting, creating a sophisticated ambiance.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "f75f9baa-9ef9-40e1-99a2-75baad29b67c",
+      "file": "images/f75f9baa-9ef9-40e1-99a2-75baad29b67c.jpg",
+      "sort_order": 17,
+      "quality_score": 0.85,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "lobby",
+        "ambiance"
+      ],
+      "description": "The image captures a stylish interior space, likely a hotel lobby or lounge, featuring elegant white and dark grey wall paneling. Warm light emanates from several brass-toned lantern-style wall sconces, complementing the inviting ambiance. A plush green bench with a plaid cushion is visible in the foreground, alongside a decorative plant, while a modern floor lamp and red seating are partially seen in the background.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "f8727680-6a89-4f22-9b19-704a4e179614",
+      "file": "images/f8727680-6a89-4f22-9b19-704a4e179614.jpg",
+      "sort_order": 18,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "ambiance",
+        "lounge",
+        "detail"
+      ],
+      "description": "This image captures a stylish corner of a modern interior, featuring a plush red velvet bench adorned with a solid red cushion and a plaid cushion. A contemporary brass floor lamp with a spherical light source stands beside the bench, illuminating the space. On a small round side table, several French newspapers and a glass votive with a lit candle are neatly arranged, adding to the inviting ambiance. The room features a distinctive color palette of red, black, and white walls, complemented by a light-colored herringbone floor.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "48dc193b-b644-4ff1-9722-9d0395cb5f04",
+      "file": "images/48dc193b-b644-4ff1-9722-9d0395cb5f04.jpg",
+      "sort_order": 19,
+      "quality_score": 0.9,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room",
+        "ambiance"
+      ],
+      "description": "This image captures a luxurious and inviting guest room, focusing on the bed area. A neatly made bed with crisp white pillows is centered, featuring a distinctive curved, upholstered headboard in a rich reddish-brown hue. The bed is flanked by elegant wall paneling with integrated sconce lighting, casting a warm glow on the soft, pleated mint-green curtains that serve as a backdrop.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "c573f2b9-0a2b-4d7f-9b64-b34fc60fcaf3",
+      "file": "images/c573f2b9-0a2b-4d7f-9b64-b34fc60fcaf3.jpg",
+      "sort_order": 20,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room",
+        "ambiance"
+      ],
+      "description": "A luxurious hotel guest room is depicted, focusing on a neatly made bed with crisp white linens. The bed features a dusty pink velvet headboard, framed by dramatic dark green fabric drapes that create a canopy effect. Warm light emanates from two modern black wall sconces mounted on the light grey wall, enhancing the room's inviting atmosphere. Rustic wooden bedside tables flank the bed, holding a bottle, two glasses, and a small vase with purple flowers.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "62f9851f-7843-4a7b-b2b2-f6dfeee91f55",
+      "file": "images/62f9851f-7843-4a7b-b2b2-f6dfeee91f55.jpg",
+      "sort_order": 21,
+      "quality_score": 0.9,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "terrace",
+        "food",
+        "guest_room",
+        "room_view"
+      ],
+      "description": "A charming breakfast spread is laid out on a small round table on a private balcony. Two dark metal chairs are positioned at the table, which holds a tray with various breakfast items including bread, juice, and a salad. The balcony features a black wrought-iron railing adorned with planter boxes containing lush greenery, set against the backdrop of a classic white building facade with windows and decorative balconies.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "8c6f0261-fd30-4b52-beb6-3e7d8cd39f3e",
+      "file": "images/8c6f0261-fd30-4b52-beb6-3e7d8cd39f3e.jpg",
+      "sort_order": 22,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room",
+        "room_view"
+      ],
+      "description": "The image captures a luxurious guest room, focusing on a bed with a distinctive teal fabric canopy and a rust-colored headboard. White pillows are neatly arranged on the bed. On either side of the bed, modern black wall sconces provide ambient lighting, with small wooden side tables beneath them. To the left, a partial view of an adjacent room or area is visible through an open doorway, revealing a light blue wall and a patterned floor with green and white tiles.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "5e0a9cd1-1916-4dcb-ae31-00c92021063e",
+      "file": "images/5e0a9cd1-1916-4dcb-ae31-00c92021063e.jpg",
+      "sort_order": 23,
+      "quality_score": 0.9,
+      "appeal_score": 0.85,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room",
+        "ambiance",
+        "detail"
+      ],
+      "description": "This image captures a stylish guest room, showcasing a bed with a distinctive pink headboard and crisp white linens. A large arched mirror on a dark teal wall reflects another part of the bed, framed by rich green velvet curtains. A dark wooden shelf beneath the mirror holds an antique-style telephone, small decorative bottles, a vase with dried flowers, a vintage radio, and a modern spherical lamp, contributing to the room's unique and curated ambiance.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "ab265847-2386-4777-97fe-dc222a9f25ad",
+      "file": "images/ab265847-2386-4777-97fe-dc222a9f25ad.jpg",
+      "sort_order": 24,
+      "quality_score": 0.9,
+      "appeal_score": 0.85,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room",
+        "room_view"
+      ],
+      "description": "A bright and elegantly styled guest room features a bed with a partial canopy and crisp white linens. A large window, dressed with sheer teal curtains, reveals an ornate wrought-iron balcony railing and natural light. To the left, a dark shelving unit holds decorative objects and a small wooden stool sits on a patterned floor. The room is further accented by a dark feature wall.",
+      "width": null,
+      "height": null
+    }
+  ]
+}

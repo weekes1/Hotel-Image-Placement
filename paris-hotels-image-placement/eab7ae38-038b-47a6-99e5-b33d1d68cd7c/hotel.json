@@ -1,0 +1,419 @@
+{
+  "id": "eab7ae38-038b-47a6-99e5-b33d1d68cd7c",
+  "name": "Hotel Bel Ami",
+  "address": "11 Rue Saint-Benoît, 75006 Paris, France",
+  "location": "Paris, France",
+  "city": "Paris",
+  "country": "FR",
+  "latitude": 48.854901,
+  "longitude": 2.33323,
+  "website": "https://www.hotelbelami-paris.com/",
+  "description": "Hotel Bel Ami is a boutique hotel in the Saint-Germain-des-Pres district on Paris's Left Bank.\nFacilities include room service and an on-site restaurant, with interior design styled across multiple rooms and suites.\nThe location places art galleries, museums, and Luxembourg Gardens within walking distance of the door.",
+  "image_count": 25,
+  "images": [
+    {
+      "id": "6e4a2ac4-400c-443a-afbe-38c7bf8e111a",
+      "file": "images/6e4a2ac4-400c-443a-afbe-38c7bf8e111a.jpg",
+      "sort_order": 0,
+      "quality_score": 0.9,
+      "appeal_score": 0.85,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "exterior",
+        "entrance"
+      ],
+      "description": "A classic European hotel facade is captured in this image, featuring a cream-colored building with arched windows adorned with lush green planter boxes. A prominent black banner displaying \"HOTEL BEL AMI\" hangs vertically, alongside French and European Union flags. The ground floor showcases several dark awnings above windows, indicating the hotel's entrance and ground-level establishments.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "baba354b-0b54-47c2-967f-9cfb3748dd8d",
+      "file": "images/baba354b-0b54-47c2-967f-9cfb3748dd8d.jpg",
+      "sort_order": 1,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "lobby",
+        "people"
+      ],
+      "description": "The image captures a modern and elegant hotel lobby, featuring a sleek white reception desk with dark wood paneling behind it. Two staff members are visible at the desk, both engaged in phone calls. In the foreground, a large circular mirrored art installation and contemporary dark blue seating areas with white piping add to the sophisticated ambiance of the space. The floor is covered in polished white marble tiles, reflecting the bright lighting.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "cd0ba8ed-3b62-4482-8076-ff3ef617a9a8",
+      "file": "images/cd0ba8ed-3b62-4482-8076-ff3ef617a9a8.jpg",
+      "sort_order": 2,
+      "quality_score": 0.9,
+      "appeal_score": 0.85,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "restaurant",
+        "food"
+      ],
+      "description": "A modern restaurant interior is depicted, featuring a prominent buffet counter laden with various breakfast items such as bread, pastries, and fruit. Several dining tables are set with place settings and small floral arrangements, surrounded by stylish blue velvet chairs. The space is adorned with contemporary decor, including a striking red sculptural installation on the ceiling and shelves displaying books and decorative objects.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "9f2d0a5b-cb06-4eda-9d19-16a95dee9436",
+      "file": "images/9f2d0a5b-cb06-4eda-9d19-16a95dee9436.jpg",
+      "sort_order": 3,
+      "quality_score": 1.0,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "suite",
+        "room_view"
+      ],
+      "description": "A modern and stylish living area within a hotel suite, featuring a light-colored sofa with a red accent pillow, a marble-topped coffee table, and two contemporary armchairs on a patterned rug. A tall floor lamp provides additional lighting, complementing the natural light from three large windows draped with sheer white curtains. The room is decorated with a black abstract art piece and a dark green trim along the ceiling and baseboards. A doorway on the left leads to an adjacent room, likely a bedroom.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "dc990f43-d331-44a2-8c46-3107082c9af0",
+      "file": "images/dc990f43-d331-44a2-8c46-3107082c9af0.jpg",
+      "sort_order": 4,
+      "quality_score": 0.95,
+      "appeal_score": 0.85,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room",
+        "room_view"
+      ],
+      "description": "The image depicts a modern guest room featuring a neatly made bed with white linens and a beige throw. A distinctive dark grey four-poster bed frame is visible, curving around the window. Through the large window, an urban street scene with a building facade and a red awning is visible. A flat-screen television on a stand is positioned to the left of the window.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "86b10133-7a3b-494a-9ab9-ea1afd95758e",
+      "file": "images/86b10133-7a3b-494a-9ab9-ea1afd95758e.jpg",
+      "sort_order": 5,
+      "quality_score": 0.9,
+      "appeal_score": 0.85,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "restaurant",
+        "ambiance"
+      ],
+      "description": "This image captures a stylish and modern restaurant interior, featuring multiple dining tables set with place settings and drinks. The space is furnished with plush blue velvet chairs and banquette seating, complemented by striking black and white patterned curtains on the windows. Overhead, large red sculptural letters are suspended from the ceiling, adding a unique artistic element, while illuminated shelves filled with books and decorative objects line one wall.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "43922bd6-5e90-4742-8b72-ffcd9426ee56",
+      "file": "images/43922bd6-5e90-4742-8b72-ffcd9426ee56.jpg",
+      "sort_order": 6,
+      "quality_score": 1.0,
+      "appeal_score": 0.95,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "lounge",
+        "bar",
+        "ambiance",
+        "drinks"
+      ],
+      "description": "This image captures a sophisticated hotel lounge area, featuring plush navy velvet sofas and unique white curved armchairs arranged around small, elegant tables. A prominent illuminated display case showcases various luxury items and bottles, suggesting a bar or retail element within the space. In the background, white bookshelves filled with books add to the refined atmosphere, while a glimpse of an exterior can be seen through a window on the left. The decor is modern and luxurious, with a rich color palette and stylish furnishings.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "b7e517e1-148f-4c7e-ba12-9e146da53d57",
+      "file": "images/b7e517e1-148f-4c7e-ba12-9e146da53d57.jpg",
+      "sort_order": 7,
+      "quality_score": 1.0,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "lounge",
+        "bar",
+        "ambiance"
+      ],
+      "description": "This image captures a luxurious hotel lounge area, characterized by a vibrant blue and white abstract patterned carpet and matching curtains. The space features plush navy velvet banquettes and unique white sculptural armchairs arranged around small, elegant tables with metallic accents. A well-stocked bar display case is visible on the right, showcasing various bottles and glassware, adding to the sophisticated ambiance of the room.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "00edc297-68b3-4b92-ac1a-d9c487f25e76",
+      "file": "images/00edc297-68b3-4b92-ac1a-d9c487f25e76.jpg",
+      "sort_order": 8,
+      "quality_score": 0.9,
+      "appeal_score": 0.8,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "spa",
+        "treatment_room"
+      ],
+      "description": "A clean and brightly lit spa treatment room features a white-draped treatment bed in the center. To the right, a mobile cart holds various skincare products, alongside a facial steamer. The light-colored walls are adorned with a framed artwork and several illuminated recessed niches displaying additional products. The room conveys a serene and functional atmosphere for wellness treatments.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "61d2a762-1c16-4efe-b92e-fbdd3184bedc",
+      "file": "images/61d2a762-1c16-4efe-b92e-fbdd3184bedc.jpg",
+      "sort_order": 9,
+      "quality_score": 0.75,
+      "appeal_score": 0.55,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "treatment_room",
+        "spa"
+      ],
+      "description": "A bright and clean spa treatment room is depicted, featuring a white-sheeted treatment bed with neatly rolled towels. Various professional skincare products, wax warmers, and a magnifying lamp are arranged on small side tables. The room has light-colored walls and a framed poster, creating a functional and tidy environment for wellness services.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "fcecbd12-06b9-465c-84f7-70692176af7c",
+      "file": "images/fcecbd12-06b9-465c-84f7-70692176af7c.jpg",
+      "sort_order": 10,
+      "quality_score": 1.0,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room",
+        "bathroom"
+      ],
+      "description": "This image depicts a modern guest room featuring a large bed dressed with white linens, a patterned bed runner, and a vibrant blue throw. Bedside tables with contemporary lamps and a vase of white flowers flank the bed. An open doorway on the right provides a glimpse into a sleek bathroom, showcasing a white vanity, a mirror, and a glass-enclosed shower area with a distinctive blue ceiling. The room's decor includes light wood wall paneling and a patterned carpet.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "ddadd382-736e-4730-870a-a5dedcce7f07",
+      "file": "images/ddadd382-736e-4730-870a-a5dedcce7f07.jpg",
+      "sort_order": 11,
+      "quality_score": 0.9,
+      "appeal_score": 0.85,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room",
+        "room_view"
+      ],
+      "description": "This image showcases a modern guest room with a large bed dressed in white linens, a blue throw, and a patterned runner. A window with sheer and patterned curtains offers a glimpse of greenery outside. The room features contemporary decor including a round red-framed mirror, a blue desk chair, and a brown leather accent chair with a blue handbag.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "fdfad454-586d-4d07-b854-a27faebc6a50",
+      "file": "images/fdfad454-586d-4d07-b854-a27faebc6a50.jpg",
+      "sort_order": 12,
+      "quality_score": 0.9,
+      "appeal_score": 0.85,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "bathroom"
+      ],
+      "description": "This image showcases a modern and luxurious bathroom featuring a double vanity with sleek chrome fixtures and a large, circular mirror with a blue frame. The walls and floor are adorned with striking white and grey marble, contrasting with a vibrant yellow ceiling. A glass-enclosed shower is visible on the right, while an open wardrobe with a colorful scarf and luggage can be seen on the left.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "574cfd69-f417-4dd2-9fc3-73f33aa17912",
+      "file": "images/574cfd69-f417-4dd2-9fc3-73f33aa17912.jpg",
+      "sort_order": 13,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room",
+        "room_view"
+      ],
+      "description": "The image depicts a modern and elegantly appointed guest room. A large bed with a blue upholstered headboard and crisp white linens is positioned against a white wall, flanked by mirrored panels and side tables with lamps. In the foreground, a small sofa and two textured armchairs are arranged around a marble-topped coffee table adorned with books. A large window, covered by sheer and opaque curtains, allows natural light to illuminate the space.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "bc8ca1d2-c1ce-412a-8532-40a90ed62c44",
+      "file": "images/bc8ca1d2-c1ce-412a-8532-40a90ed62c44.jpg",
+      "sort_order": 14,
+      "quality_score": 0.9,
+      "appeal_score": 0.85,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room",
+        "bathroom"
+      ],
+      "description": "This image captures a modern and well-appointed hotel guest room. A neatly made bed with a brown headboard and a matching throw is visible on the left, alongside a bedside table with a lamp. To the right, a built-in unit features a coffee machine, cups, and patterned wallpaper accents, illuminated by strip lighting. Through an archway in the background, a shower stall with marble-patterned walls is visible, indicating an en-suite bathroom.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "1bb1d5de-58bd-4404-99fc-c9f64ef74ddc",
+      "file": "images/1bb1d5de-58bd-4404-99fc-c9f64ef74ddc.jpg",
+      "sort_order": 15,
+      "quality_score": 0.9,
+      "appeal_score": 0.8,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "suite",
+        "room_view"
+      ],
+      "description": "This image showcases a modern and elegantly designed hotel suite, featuring a comfortable bed with multiple pillows and a dark accent wall behind it. In the foreground, a light-colored sofa with an orange cushion faces a marble-topped coffee table, while a small dining area with a round wooden table and black chairs is visible to the right. Large windows with sheer and opaque curtains allow natural light into the room, which is further illuminated by recessed ceiling lights and a floor lamp. The room features light wooden flooring and contemporary furnishings, creating a sophisticated atmosphere.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "eca89bec-55d6-451a-ac69-e3035b9f6125",
+      "file": "images/eca89bec-55d6-451a-ac69-e3035b9f6125.jpg",
+      "sort_order": 16,
+      "quality_score": 1.0,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room",
+        "ambiance",
+        "room_view"
+      ],
+      "description": "A stylish guest room is depicted, featuring a large bed with white linens and a textured orange throw. The room is accessed through a teal-painted archway, and a modern brass wall sconce illuminates the entrance. A small round marble-top table with a red chair and a decorative wall art piece are visible, along with a window dressed with sheer and opaque curtains.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "219815a2-33fb-4280-8ab2-e837bacb1908",
+      "file": "images/219815a2-33fb-4280-8ab2-e837bacb1908.jpg",
+      "sort_order": 17,
+      "quality_score": 0.9,
+      "appeal_score": 0.8,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room",
+        "room_view"
+      ],
+      "description": "This image depicts a well-appointed guest room featuring a large bed with a brown throw and multiple pillows. To the left, a red velvet armchair sits beside a white marble-topped table, adorned with a luxury handbag and sunglasses. The room is illuminated by various lamps and natural light filtering through sheer and opaque curtains, with a decorative wall art piece above the table.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "88e56710-7141-4f31-b897-560829d1798a",
+      "file": "images/88e56710-7141-4f31-b897-560829d1798a.jpg",
+      "sort_order": 18,
+      "quality_score": 1.0,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room",
+        "room_view",
+        "food",
+        "drinks"
+      ],
+      "description": "A well-appointed guest room or suite living area features a daybed with decorative pillows, two brown armchairs, and a light wood coffee table. On the coffee table, a tea set with pastries is arranged. The room has a sloped ceiling, a large window with drapes, and a full-length mirror reflecting a television and a floor lamp. An abstract artwork hangs above the daybed, contributing to the modern and comfortable ambiance.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "39e1594c-cdd5-4484-a79d-8fdb6770080b",
+      "file": "images/39e1594c-cdd5-4484-a79d-8fdb6770080b.jpg",
+      "sort_order": 19,
+      "quality_score": 0.9,
+      "appeal_score": 0.85,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "bathroom"
+      ],
+      "description": "The image captures a modern bathroom, partially viewed through an open doorway. It features a sleek white vanity with a dark blue metal frame, a circular mirror, and a white towel draped over a wooden bench. The bathroom boasts elegant white marble flooring and wall accents, with a window visible in the background. To the left, a textured wooden wardrobe with a vertical blue accent panel is partially visible, framing the entrance to the bathroom.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "9ef56648-10de-490f-9965-a7810d6a192a",
+      "file": "images/9ef56648-10de-490f-9965-a7810d6a192a.jpg",
+      "sort_order": 20,
+      "quality_score": 0.95,
+      "appeal_score": 0.85,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "terrace",
+        "food",
+        "drinks"
+      ],
+      "description": "The image captures a charming outdoor terrace set for a meal, likely breakfast or brunch. A round black table is laden with croissants, fresh juices, and coffee cups, flanked by two modern woven chairs with cushions. The terrace features wooden decking and is enclosed by a stylish wooden fence with integrated planters filled with lush greenery, creating a private and inviting atmosphere.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "671c11a6-3cfb-4d80-ba76-913a95fd3cb9",
+      "file": "images/671c11a6-3cfb-4d80-ba76-913a95fd3cb9.jpg",
+      "sort_order": 21,
+      "quality_score": 0.9,
+      "appeal_score": 0.8,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room",
+        "room_view"
+      ],
+      "description": "The image displays a modern guest room featuring a four-poster bed with a dark grey headboard and white linens, accented by a beige throw and a decorative pillow. A window with sheer and ombre beige-to-green curtains allows natural light into the room, which has light wooden flooring. A wall-mounted television is visible on the right, opposite the bed. The room's design includes subtle teal accents on the bed frame and wall trim, contributing to a contemporary aesthetic.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "f0dca2f4-ad32-4964-bb71-b4473d6d09ec",
+      "file": "images/f0dca2f4-ad32-4964-bb71-b4473d6d09ec.jpg",
+      "sort_order": 22,
+      "quality_score": 0.9,
+      "appeal_score": 0.85,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "guest_room"
+      ],
+      "description": "This image captures a modern guest room featuring a dark-framed four-poster bed with crisp white linens and a decorative throw pillow. A bedside table with a contemporary lamp is visible next to the bed. On the opposite wall, a flat-screen television is mounted, and large windows are covered by sheer and opaque curtains in neutral tones, complementing the light wooden flooring.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "715128c9-ec75-400c-9d1f-5db67f43ff50",
+      "file": "images/715128c9-ec75-400c-9d1f-5db67f43ff50.jpg",
+      "sort_order": 23,
+      "quality_score": 0.95,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "suite",
+        "room_view"
+      ],
+      "description": "This image showcases a modern and elegantly designed hotel suite. It features a comfortable seating area with textured armchairs and a marble-topped table, set on a geometric patterned rug. To the right, a stylish integrated kitchenette area includes a sink, coffee machine, and glassware, backed by illuminated dark marble and dark wood cabinetry. A large window, draped with sheer and opaque curtains, provides natural light to the space.",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "5f75847c-82b2-4d81-8663-3222fa79e7e0",
+      "file": "images/5f75847c-82b2-4d81-8663-3222fa79e7e0.jpg",
+      "sort_order": 24,
+      "quality_score": 0.9,
+      "appeal_score": 0.9,
+      "usable": true,
+      "usability_issues": [],
+      "subjects": [
+        "suite",
+        "room_view"
+      ],
+      "description": "This image showcases a modern hotel suite, featuring a stylish living area with a light-colored sofa, a marble-top coffee table, and contemporary artwork on the wall. A floor lamp provides ambient lighting, and a window with drapes is visible on the left. Through an open doorway, a glimpse of the bedroom reveals a comfortable bed and illuminated bedside lamps, indicating a well-appointed and spacious accommodation.",
+      "width": null,
+      "height": null
+    }
+  ]
+}
