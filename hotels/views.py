@@ -7,6 +7,7 @@ from django.views.decorators.http import require_GET
 
 from .repository import HotelDataError, HotelNotFound, get_hotel
 
+from .selection import filter_usable_images
 
 logger = logging.getLogger(__name__)
 
@@ -40,6 +41,6 @@ def image_presentation(request, hotel_id):
             "hotel_id": hotel["id"],
             "hotel_name": hotel["name"],
             "audience": audience,
-            "images": hotel["images"],
+            "images": filter_usable_images(hotel["images"]),
         }
     )
