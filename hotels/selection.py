@@ -11,6 +11,28 @@ AMENITY_SUBJECTS = {
 
 HERO_SUBJECTS = {"exterior", "entrance", "grounds"}
 
+# Variety uses meaningful content families, rather than incidental labels such
+# as ambiance, people, and detail. Synonyms share the same family.
+VARIETY_FAMILIES = {
+    "rooms": ROOM_SUBJECTS,
+    "pools": {"pool", "pool_indoor"},
+    "wellness": {"spa", "treatment_room"},
+    "fitness": {"gym"},
+    "food": {"food"},
+    "restaurant_spaces": {"restaurant"},
+    "bars_and_drinks": {"bar", "drinks"},
+    "outdoors": {"garden", "grounds", "terrace"},
+    "property": {"exterior", "entrance"},
+    "shared_interiors": {"lobby", "lounge"},
+    "views": {"view", "room_vista"},
+    "bathrooms": {"bathroom"},
+    "children": {"kids_facility"},
+    "events": {"event_space"},
+    "other_amenities": {"amenity"},
+}
+
+VARIETY_SCORE_MARGIN = 0.05
+
 def build_presentation(images, audience):
 
     if audience == 'curator':
@@ -48,39 +70,23 @@ def image_strength(image):
 
     return 0.5 * quality + 0.5 * appeal
 
-def _curator_sort_key(image):
-    subjects = image.get("subjects")
-
-    if not isinstance(subjects, list):
-        subjects = []
-
-    preferred_subjects = ROOM_SUBJECTS | DINING_SUBJECTS
-
-    is_preferred = any(
-        subject in preferred_subjects
-        for subject in subjects
-        if isinstance(subject, str)
-    )
-
-    group = 0 if is_preferred else 1
-
-    source_order = image.get("sort_order")
-
-    if isinstance(source_order, bool) or not isinstance(source_order, int):
-        source_order = float("inf")
-
-    return (
-        group,
-        -image_strength(image),
-        source_order,
-        str(image.get("id", "")),
-    )
-
-
 def select_curator_images(images):
     usable_images = filter_usable_images(images)
+    preferred_subjects = ROOM_SUBJECTS | DINING_SUBJECTS
+    preferred = []
+    other = []
 
-    return sorted(usable_images, key=_curator_sort_key)
+    for image in usable_images:
+        if image_subjects(image) & preferred_subjects:
+            preferred.append(image)
+        else:
+            other.append(image)
+
+    # Keep room/dining priority even if a following image has a higher score.
+    return (
+        _order_with_variety(preferred, relevant_subjects=preferred_subjects)
+        + _order_with_variety(other)
+    )
 
 def image_subjects(image):
     subjects = image.get("subjects")
@@ -105,7 +111,7 @@ def image_identity(image):
     return None
 
 
-def _member_sort_key(image):
+def _strength_sort_key(image):
     source_order = image.get("sort_order")
 
     if isinstance(source_order, bool) or not isinstance(source_order, int):
@@ -117,26 +123,69 @@ def _member_sort_key(image):
         image_identity(image) or ("", ""),
     )
 
+
+def _variety_families(image, relevant_subjects=None):
+    subjects = image_subjects(image)
+    if relevant_subjects is not None:
+        subjects &= relevant_subjects
+
+    return {
+        family
+        for family, members in VARIETY_FAMILIES.items()
+        if subjects & members
+    }
+
+
+def _order_with_variety(images, limit=None, relevant_subjects=None):
+    """Prefer unseen content only within 0.05 of the strongest remaining image."""
+    remaining = sorted(images, key=_strength_sort_key)
+    selected = []
+    seen_families = set()
+
+    while remaining and (limit is None or len(selected) < limit):
+        strongest = image_strength(remaining[0])
+        chosen = remaining[0]
+
+        for image in remaining:
+            # A small epsilon keeps the inclusive margin stable at float boundaries.
+            if image_strength(image) < strongest - VARIETY_SCORE_MARGIN - 1e-12:
+                break
+
+            if _variety_families(image, relevant_subjects) - seen_families:
+                chosen = image
+                break
+
+        selected.append(chosen)
+        seen_families.update(_variety_families(chosen, relevant_subjects))
+        remaining.remove(chosen)
+
+    return selected
+
+
 MEMBER_GALLERY_LIMIT = 5
 
 
 def _select_member_gallery(ranked_images, subjects, used_keys):
-    gallery = []
+    candidates = []
+    candidate_keys = set(used_keys)
 
     for image in ranked_images:
         key = image_identity(image)
-        if key in used_keys:
+        if key is None or key in candidate_keys:
             continue
 
         if not image_subjects(image) & subjects:
             continue
 
-        gallery.append(image)
-        used_keys.add(key)
+        candidates.append(image)
+        candidate_keys.add(key)
 
-        if len(gallery) >= MEMBER_GALLERY_LIMIT:
-            break
-
+    gallery = _order_with_variety(
+        candidates,
+        limit=MEMBER_GALLERY_LIMIT,
+        relevant_subjects=subjects,
+    )
+    used_keys.update(image_identity(image) for image in gallery)
     return gallery
 
 def select_member_images(images):
@@ -148,7 +197,7 @@ def select_member_images(images):
         if image_identity(image) is not None
     ]
 
-    ranked_images = sorted(candidates, key=_member_sort_key)
+    ranked_images = sorted(candidates, key=_strength_sort_key)
 
     # Prefer explicit building/property subjects.
     hero_candidates = [

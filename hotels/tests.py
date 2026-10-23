@@ -1,4 +1,6 @@
 import json
+from copy import deepcopy
+from itertools import permutations
 from pathlib import Path
 from tempfile import TemporaryDirectory
 from unittest import TestCase
@@ -7,6 +9,141 @@ from unittest.mock import patch
 from .repository import HotelDataError, HotelNotFound, get_hotel, list_hotels
 from .selection import filter_usable_images
 from .selection import filter_usable_images, select_curator_images, select_member_images
+
+
+class VarietySelectionTests(TestCase):
+    def image(self, image_id, strength, *subjects):
+        return {
+            "id": image_id,
+            "usable": True,
+            "subjects": list(subjects),
+            "quality_score": strength,
+            "appeal_score": strength,
+        }
+
+    def test_curator_promotes_close_dining_image_but_preserves_group_priority(self):
+        images = [
+            self.image("room-1", 0.95, "guest_room"),
+            self.image("room-2", 0.94, "suite"),
+            self.image("restaurant", 0.92, "restaurant"),
+            self.image("exterior", 1.0, "exterior"),
+        ]
+
+        result = select_curator_images(images)
+
+        self.assertEqual(
+            [image["id"] for image in result],
+            ["room-1", "restaurant", "room-2", "exterior"],
+        )
+
+    def test_variety_never_promotes_an_image_outside_the_score_margin(self):
+        for dining_score, expected in (
+            (0.89, ["room-1", "restaurant", "room-2"]),
+            (0.889, ["room-1", "room-2", "restaurant"]),
+        ):
+            with self.subTest(dining_score=dining_score):
+                images = [
+                    self.image("room-1", 0.95, "guest_room"),
+                    self.image("room-2", 0.94, "suite"),
+                    self.image("restaurant", dining_score, "restaurant"),
+                ]
+
+                self.assertEqual(
+                    [image["id"] for image in select_curator_images(images)],
+                    expected,
+                )
+
+    def test_member_amenities_treat_pool_labels_as_one_family(self):
+        images = [
+            self.image("hero", 1.0, "exterior"),
+            self.image("pool-1", 0.95, "pool"),
+            self.image("pool-2", 0.94, "pool_indoor"),
+            self.image("spa", 0.92, "spa"),
+            self.image("gym", 0.70, "gym"),
+        ]
+
+        result = select_member_images(images)
+
+        self.assertEqual(result["hero"]["id"], "hero")
+        self.assertEqual(
+            [image["id"] for image in result["amenities"]],
+            ["pool-1", "spa", "pool-2", "gym"],
+        )
+
+    def test_member_dining_diversifies_spaces_food_and_drinks(self):
+        images = [
+            self.image("hero", 1.0, "exterior"),
+            self.image("restaurant-1", 0.95, "restaurant"),
+            self.image("restaurant-2", 0.94, "restaurant"),
+            self.image("food", 0.92, "food"),
+            self.image("drinks", 0.91, "drinks"),
+        ]
+
+        result = select_member_images(images)
+
+        self.assertEqual(
+            [image["id"] for image in result["dining"]],
+            ["restaurant-1", "food", "drinks", "restaurant-2"],
+        )
+
+    def test_variety_considers_candidates_before_applying_gallery_limit(self):
+        images = [self.image("hero", 1.0, "exterior")]
+        images += [
+            self.image(f"pool-{index}", score, "pool")
+            for index, score in enumerate((0.95, 0.94, 0.93, 0.92, 0.91))
+        ]
+        images.append(self.image("spa", 0.90, "spa"))
+
+        result = select_member_images(images)
+
+        self.assertEqual(
+            [image["id"] for image in result["amenities"]],
+            ["pool-0", "spa", "pool-1", "pool-2", "pool-3"],
+        )
+
+    def test_multisubject_images_mark_every_matching_family_as_seen(self):
+        images = [
+            self.image("room-and-food", 0.95, "guest_room", "food"),
+            self.image("room", 0.94, "suite"),
+            self.image("food", 0.93, "food"),
+            self.image("restaurant", 0.92, "restaurant"),
+        ]
+
+        self.assertEqual(
+            [image["id"] for image in select_curator_images(images)],
+            ["room-and-food", "restaurant", "room", "food"],
+        )
+
+    def test_incidental_and_out_of_category_tags_do_not_create_variety(self):
+        images = [
+            self.image("hero", 1.0, "exterior"),
+            self.image("pool-1", 0.95, "pool"),
+            self.image("pool-2", 0.94, "pool"),
+            self.image("pool-3", 0.92, "pool", "ambiance", "people", "guest_room"),
+        ]
+
+        self.assertEqual(
+            [image["id"] for image in select_member_images(images)["amenities"]],
+            ["pool-1", "pool-2", "pool-3"],
+        )
+
+    def test_order_is_deterministic_without_modifying_input(self):
+        images = [
+            self.image("room", 0.95, "guest_room"),
+            self.image("restaurant-b", 0.92, "restaurant"),
+            self.image("restaurant-a", 0.92, "restaurant"),
+            self.image("food", 0.91, "food"),
+        ]
+        original = deepcopy(images)
+        expected_curator = select_curator_images(images)
+        expected_member = select_member_images(images)
+
+        for ordering in permutations(images):
+            self.assertEqual(select_curator_images(ordering), expected_curator)
+            self.assertEqual(select_member_images(ordering), expected_member)
+
+        self.assertEqual(images, original)
+
 
 class ImageSelectionTests(TestCase):
     def test_keeps_only_usable_images_in_their_original_order(self):
