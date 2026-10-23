@@ -9,6 +9,8 @@ from .repository import HotelDataError, HotelNotFound, get_hotel
 
 from .selection import filter_usable_images
 
+from .selection import build_presentation
+
 logger = logging.getLogger(__name__)
 
 
@@ -36,11 +38,13 @@ def image_presentation(request, hotel_id):
             status=500,
         )
 
+    images = build_presentation(hotel["images"], audience)
+
     return JsonResponse(
         {
             "hotel_id": hotel["id"],
             "hotel_name": hotel["name"],
             "audience": audience,
-            "images": filter_usable_images(hotel["images"]),
+            "images": images,
         }
     )

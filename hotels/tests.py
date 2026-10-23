@@ -6,7 +6,7 @@ from unittest.mock import patch
 
 from .repository import HotelDataError, HotelNotFound, get_hotel, list_hotels
 from .selection import filter_usable_images
-
+from .selection import filter_usable_images, select_curator_images
 
 class ImageSelectionTests(TestCase):
     def test_keeps_only_usable_images_in_their_original_order(self):
@@ -75,3 +75,84 @@ class HotelRepositoryTests(TestCase):
     def test_empty_dataset_reports_a_data_error(self):
         with self.assertRaises(HotelDataError):
             list_hotels()
+
+
+class CuratorSelectionTests(TestCase):
+    def test_rooms_and_dining_lead_and_unusable_images_are_excluded(self):
+        images = [
+            {
+                "id": "exterior",
+                "usable": True,
+                "subjects": ["exterior"],
+                "quality_score": 1.0,
+                "appeal_score": 1.0,
+            },
+            {
+                "id": "room",
+                "usable": True,
+                "subjects": ["ambiance", "guest_room"],
+                "quality_score": 0.8,
+                "appeal_score": 0.8,
+            },
+            {
+                "id": "dining",
+                "usable": True,
+                "subjects": ["restaurant", "food"],
+                "quality_score": 0.9,
+                "appeal_score": 0.9,
+            },
+            {
+                "id": "unusable",
+                "usable": False,
+                "subjects": ["suite"],
+                "quality_score": 1.0,
+                "appeal_score": 1.0,
+            },
+        ]
+
+        result = select_curator_images(images)
+
+        self.assertEqual(
+            [image["id"] for image in result],
+            ["dining", "room", "exterior"],
+        )
+
+    def test_ties_use_source_order_then_id(self):
+        images = [
+            {"id": "b", "usable": True, "sort_order": 2},
+            {"id": "a", "usable": True, "sort_order": 2},
+            {"id": "c", "usable": True, "sort_order": 1},
+        ]
+
+        result = select_curator_images(images)
+
+        self.assertEqual(
+            [image["id"] for image in result],
+            ["c", "a", "b"],
+        )
+
+        self.assertEqual(result, select_curator_images(list(reversed(images))))
+
+    def test_incomplete_metadata_is_handled(self):
+        images = [
+            {
+                "id": "missing",
+                "usable": True,
+                "subjects": None,
+                "quality_score": None,
+                "sort_order": None,
+            },
+            {
+                "id": "scored",
+                "usable": True,
+                "quality_score": 0.8,
+                "appeal_score": 0.8,
+            },
+        ]
+
+        result = select_curator_images(images)
+
+        self.assertEqual(
+            [image["id"] for image in result],
+            ["scored", "missing"],
+        )
