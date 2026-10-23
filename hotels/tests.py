@@ -158,6 +158,75 @@ class CuratorSelectionTests(TestCase):
         )
 
 class MemberSelectionTests(TestCase):
+    def test_file_identity_prevents_hero_and_gallery_duplicates(self):
+        hero = {
+            "file": "images/building.jpg",
+            "usable": True,
+            "subjects": ["exterior", "spa", "restaurant"],
+        }
+        shared = {
+            "file": "images/shared.jpg",
+            "usable": True,
+            "subjects": ["spa", "restaurant"],
+        }
+
+        result = select_member_images([hero, dict(hero), shared, dict(shared)])
+
+        self.assertEqual(result["hero"], hero)
+        galleries = result["amenities"] + result["dining"]
+        self.assertEqual(galleries, [shared])
+        self.assertNotIn("id", result["hero"])
+
+    def test_invalid_ids_fall_back_to_file(self):
+        for image_id in (None, "", "   ", 123):
+            with self.subTest(image_id=image_id):
+                image = {
+                    "id": image_id,
+                    "file": "images/building.jpg",
+                    "usable": True,
+                    "subjects": ["exterior"],
+                }
+
+                result = select_member_images([image])
+
+                self.assertEqual(result["hero"], image)
+
+    def test_skips_images_without_a_valid_id_or_file(self):
+        images = [
+            {"usable": True},
+            {"id": None, "file": "   ", "usable": True},
+            {"id": "", "file": 123, "usable": True},
+        ]
+
+        self.assertEqual(
+            select_member_images(images),
+            {"hero": None, "amenities": [], "dining": []},
+        )
+
+    def test_file_identity_breaks_score_ties_deterministically(self):
+        images = [
+            {"file": "images/b.jpg", "usable": True, "subjects": ["exterior"]},
+            {"file": "images/a.jpg", "usable": True, "subjects": ["exterior"]},
+        ]
+
+        result = select_member_images(images)
+
+        self.assertEqual(result["hero"]["file"], "images/a.jpg")
+        self.assertEqual(result, select_member_images(list(reversed(images))))
+
+    def test_id_takes_precedence_and_does_not_collide_with_file_identity(self):
+        images = [
+            {"id": "same", "file": "first.jpg", "usable": True, "subjects": ["exterior"]},
+            {"id": "same", "file": "second.jpg", "usable": True, "subjects": ["spa"]},
+            {"file": "same", "usable": True, "subjects": ["restaurant"]},
+        ]
+
+        result = select_member_images(images)
+
+        self.assertEqual(result["hero"], images[0])
+        self.assertEqual(result["amenities"], [])
+        self.assertEqual(result["dining"], [images[2]])
+
     def test_selects_hero_and_galleries_without_repeating_images(self):
         images = [
             {
