@@ -38,13 +38,13 @@ def image_presentation(request, hotel_id):
             status=500,
         )
 
-    images = build_presentation(hotel["images"], audience)
+    presentations = build_presentation(hotel["images"], audience)
 
     return JsonResponse(
         {
             "hotel_id": hotel["id"],
             "hotel_name": hotel["name"],
             "audience": audience,
-            "images": images,
+            "presentations": presentations,
         }
     )
